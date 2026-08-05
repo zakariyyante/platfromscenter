@@ -11,19 +11,15 @@ export default function Header() {
     <>
       <header className="fixed top-0 z-50 w-full bg-[#0f0b15]/95 backdrop-blur-sm border-b border-white/5">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-16 h-16">
+          <Link href="/">
+            <div className="relative w-32 h-16">
               <Image 
                 src="/logo.png" 
                 alt="Logo" 
-                width={64} 
-                height={64} 
+                fill
                 className="object-contain" 
               />
             </div>
-            <span className="text-lg font-bold tracking-tighter text-white hidden lg:block">
-              platforms<span className="text-gray-400">center</span>
-            </span>
           </Link>
 
           <div className="flex items-center gap-6">

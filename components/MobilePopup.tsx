@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Brand } from "@/app/data/brands";
 import BrandCard from "./BrandCard";
+import Link from "next/link";
 
 interface MobilePopupProps {
   brands: Brand[];
@@ -32,10 +33,11 @@ export default function MobilePopup({ brands, gclid }: MobilePopupProps) {
   return (
     <div className="fixed inset-0 z-[100] bg-[#020617] flex flex-col overflow-y-auto md:hidden cyber-grid">
       <div className="p-6 flex justify-between items-center border-b border-white/5 glass-morphism">
-        <div className="flex items-center gap-3">
-          <Image src="/logo.png" alt="" width={48} height={48} />
-          <span className="font-black text-white uppercase tracking-tighter text-lg">Mobile Access</span>
-        </div>
+        <Link href="/">
+          <div className="relative w-24 h-12">
+            <Image src="/logo.png" alt="" fill className="object-contain" />
+          </div>
+        </Link>
         <button 
           onClick={() => setShow(false)}
           className="p-2 text-slate-400 hover:text-white border border-white/10 rounded-full"

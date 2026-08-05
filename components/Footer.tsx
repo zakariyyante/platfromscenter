@@ -9,19 +9,15 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         {/* Centered Logo */}
         <div className="flex justify-center mb-20">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-20 h-20">
+          <Link href="/">
+            <div className="relative w-48 h-24">
               <Image 
                 src="/logo.png" 
                 alt="Logo" 
-                width={80} 
-                height={80} 
+                fill
                 className="object-contain opacity-50" 
               />
             </div>
-            <span className="text-xl font-bold tracking-tighter text-white opacity-50">
-              platforms<span className="text-gray-500">center</span>
-            </span>
           </Link>
         </div>
 
