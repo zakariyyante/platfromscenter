@@ -1,0 +1,15 @@
+<svg width="640" height="160" viewBox="0 0 640 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Icon -->
+  <path d="M40 20 L80 20 L80 80 Q60 110 40 80 Z" fill="#f97316" />
+  <path d="M55 40 L65 40 L50 70 L60 70 L45 90" stroke="white" stroke-width="3" fill="none" />
+  
+  <!-- Wordmark -->
+  <text x="100" y="70" font-family="Arial, sans-serif" font-weight="bold" font-size="48">
+    <tspan fill="#ffd700">PLATFORMS</tspan><tspan fill="#f97316">FR</tspan><tspan fill="white">CENTER</tspan>
+  </text>
+  
+  <!-- Sub-line -->
+  <text x="100" y="105" font-family="Arial, sans-serif" font-size="14" fill="white" style="letter-spacing: 4px; text-transform: uppercase;">
+    PLATFORMSCENTER.COM
+  </text>
+</svg>
