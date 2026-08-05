@@ -13,7 +13,7 @@ export default function TermsPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              Bienvenue dans le portail <span className="text-cyan-400 font-bold uppercase tracking-widest text-xs">Platformscenter</span>.
+              Bienvenue dans le portail <span className="text-cyan-400 font-bold uppercase tracking-widest text-xs">Platforms Center</span>.
             </p>
             <p>
               Ces termes et conditions décrivent les règles et règlements pour l&apos;utilisation du site Web de Platformscenter, situé à l&apos;adresse platformscenter.com.

@@ -13,7 +13,7 @@ export default function PrivacyPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              Chez <span className="text-cyan-400 font-bold uppercase tracking-widest text-xs">Platformscenter</span>, accessible depuis platformscenter.com, la protection de vos métadonnées et de votre vie privée est intégrée par défaut dans notre architecture.
+              Chez <span className="text-cyan-400 font-bold uppercase tracking-widest text-xs">Platforms Center</span>, accessible depuis platformscenter.com, la protection de vos métadonnées et de votre vie privée est intégrée par défaut dans notre architecture.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Fichiers Journaux</h2>

@@ -24,7 +24,7 @@ export default function AboutSection() {
                 "Contrôle permanent des bonus et des offres promotionnelles",
                 "Vérification stricte des délais et méthodes de paiement",
                 "Audit de la sûreté et du respect du cadre réglementaire ANJ",
-                "Protocole de scoring propriétaire Platform Spotlight"
+                "Protocole de scoring propriétaire Platforms Center"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4 group">
                   <span className="text-cyan-400 mt-1 font-bold">✦</span>

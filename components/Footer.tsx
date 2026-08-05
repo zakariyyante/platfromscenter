@@ -10,17 +10,17 @@ export default function Footer() {
         {/* Centered Logo */}
         <div className="flex justify-center mb-20">
           <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-12 h-12">
+            <div className="relative w-20 h-20">
               <Image 
                 src="/logo.png" 
                 alt="Logo" 
-                width={48} 
-                height={48} 
+                width={80} 
+                height={80} 
                 className="object-contain opacity-50" 
               />
             </div>
             <span className="text-xl font-bold tracking-tighter text-white opacity-50">
-              platform<span className="text-gray-500">spotlight</span>
+              platforms<span className="text-gray-500">center</span>
             </span>
           </Link>
         </div>
@@ -31,7 +31,7 @@ export default function Footer() {
               <span className="w-4 h-[1px] bg-cyan-400" /> DIVULGATION D&apos;AFFILIATION
             </h4>
             <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
-              Platform Spotlight opère comme un comparateur indépendant. Des rémunérations affiliées peuvent être perçues auprès des opérateurs mentionnés ici. Ces partenariats peuvent influer sur le classement des enseignes, sans toutefois altérer la neutralité de nos évaluations issues de tests concrets.
+              Platforms Center opère comme un comparateur indépendant. Des rémunérations affiliées peuvent être perçues auprès des opérateurs mentionnés ici. Ces partenariats peuvent influer sur le classement des enseignes, sans toutefois altérer la neutralité de nos évaluations issues de tests concrets.
             </p>
             <div className="flex items-center gap-2 mt-6">
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
@@ -73,7 +73,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="text-center border-t border-white/5 pt-10">
           <p className="text-gray-700 text-[9px] font-bold uppercase tracking-[0.2em]">
-            © {currentYear} platformspotlight.com • Tous Droits Réservés
+            © {currentYear} platformscenter.com • Tous Droits Réservés
           </p>
         </div>
       </div>

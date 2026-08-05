@@ -12,34 +12,34 @@ export default function Header() {
       <header className="fixed top-0 z-50 w-full bg-[#0f0b15]/95 backdrop-blur-sm border-b border-white/5">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-10 h-10">
+            <div className="relative w-16 h-16">
               <Image 
                 src="/logo.png" 
                 alt="Logo" 
-                width={40} 
-                height={40} 
+                width={64} 
+                height={64} 
                 className="object-contain" 
               />
             </div>
             <span className="text-lg font-bold tracking-tighter text-white hidden lg:block">
-              platform<span className="text-gray-400">spotlight</span>
+              platforms<span className="text-gray-400">center</span>
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-8">
-            <div className="px-3 py-1 rounded-full border border-red-500/30 bg-red-500/5 text-red-500 text-[10px] font-bold">
+          <div className="flex items-center gap-6">
+            <div className="flex items-center justify-center w-8 h-8 rounded-full border border-red-600 bg-red-600 text-white text-[10px] font-bold">
               18+
             </div>
-            <nav className="flex items-center gap-8">
-              <Link href="/" className="text-xs font-bold text-white hover:text-purple-400 transition-colors tracking-widest uppercase">Accueil</Link>
-              <Link href="#brands" className="text-xs font-bold text-white hover:text-purple-400 transition-colors tracking-widest uppercase">Marques</Link>
-              <Link href="#guide" className="text-xs font-bold text-white hover:text-purple-400 transition-colors tracking-widest uppercase">Guide</Link>
-              <Link href="#about" className="text-xs font-bold text-white hover:text-purple-400 transition-colors tracking-widest uppercase">À Propos</Link>
+            <nav className="hidden md:flex items-center gap-8">
+              <Link href="/" className="text-xs font-bold text-white hover:text-cyan-400 transition-colors tracking-widest uppercase">Accueil</Link>
+              <Link href="#brands" className="text-xs font-bold text-white hover:text-cyan-400 transition-colors tracking-widest uppercase">Classement</Link>
+              <Link href="#guide" className="text-xs font-bold text-white hover:text-cyan-400 transition-colors tracking-widest uppercase">Critères</Link>
+              <Link href="#about" className="text-xs font-bold text-white hover:text-cyan-400 transition-colors tracking-widest uppercase">Édition</Link>
             </nav>
           </div>
 
           <div className="flex items-center gap-4">
-            <Link href="#contact" className="hidden sm:block px-6 py-2 text-[10px] font-bold uppercase tracking-widest border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 transition-all rounded-full">
+            <Link href="#contact" className="hidden sm:block px-8 py-2 text-[11px] font-bold uppercase tracking-widest border border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] transition-all rounded-full">
               Contact
             </Link>
 
@@ -61,9 +61,9 @@ export default function Header() {
         {/* Advertising Disclosure Bar */}
         <div className="w-full bg-[#161021] py-2 border-b border-white/5">
           <div className="container mx-auto px-6 flex justify-center items-center gap-2">
-            <span className="w-3 h-3 rounded-full border border-gray-600 flex items-center justify-center text-[8px] text-gray-500 font-bold">i</span>
-            <span className="text-[9px] text-gray-500 uppercase tracking-widest font-medium">
-              Divulgation Publicitaire : Ressource gratuite financée par des commissions
+            <div className="w-3.5 h-3.5 rounded-full border border-gray-600 flex items-center justify-center text-[9px] text-gray-500 font-bold leading-none">i</div>
+            <span className="text-[9px] text-gray-500 uppercase tracking-[0.2em] font-bold">
+              INFORMATION COMMERCIALE : GUIDE GRATUIT SOUTENU PAR DES PARTENARIATS AFFILIÉS
             </span>
           </div>
         </div>

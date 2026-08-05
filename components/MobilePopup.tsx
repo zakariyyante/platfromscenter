@@ -33,7 +33,7 @@ export default function MobilePopup({ brands, gclid }: MobilePopupProps) {
     <div className="fixed inset-0 z-[100] bg-[#020617] flex flex-col overflow-y-auto md:hidden cyber-grid">
       <div className="p-6 flex justify-between items-center border-b border-white/5 glass-morphism">
         <div className="flex items-center gap-3">
-          <Image src="/logo.png" alt="" width={32} height={32} />
+          <Image src="/logo.png" alt="" width={48} height={48} />
           <span className="font-black text-white uppercase tracking-tighter text-lg">Mobile Access</span>
         </div>
         <button 
