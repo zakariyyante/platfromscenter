@@ -10,14 +10,14 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 z-50 w-full bg-[#0f0b15]/95 backdrop-blur-sm border-b border-white/5">
-        <div className="container mx-auto px-6 h-20 flex items-center justify-between">
+        <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/">
-            <div className="relative w-32 h-16">
+            <div className="relative w-40 h-12">
               <Image 
                 src="/logo.png" 
                 alt="Logo" 
                 fill
-                className="object-contain" 
+                className="object-contain object-left" 
               />
             </div>
           </Link>
@@ -35,15 +35,15 @@ export default function Header() {
           </div>
 
           <div className="flex items-center gap-4">
-            <Link href="#contact" className="hidden sm:block px-8 py-2 text-[11px] font-bold uppercase tracking-widest border border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] transition-all rounded-full">
+            <Link href="#contact" className="hidden sm:block px-4 py-1 text-[9px] font-bold uppercase tracking-widest border border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 transition-all rounded-full">
               Contact
             </Link>
 
             <button 
-              className="md:hidden text-white p-2"
+              className="md:hidden text-white"
               onClick={() => setIsOpen(!isOpen)}
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {isOpen ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 ) : (
@@ -55,10 +55,10 @@ export default function Header() {
         </div>
 
         {/* Advertising Disclosure Bar */}
-        <div className="w-full bg-[#161021] py-2 border-b border-white/5">
+        <div className="w-full bg-[#161021] py-1.5 border-b border-white/5">
           <div className="container mx-auto px-6 flex justify-center items-center gap-2">
-            <div className="w-3.5 h-3.5 rounded-full border border-gray-600 flex items-center justify-center text-[9px] text-gray-500 font-bold leading-none">i</div>
-            <span className="text-[9px] text-gray-500 uppercase tracking-[0.2em] font-bold">
+            <div className="w-3 h-3 rounded-full border border-gray-600 flex items-center justify-center text-[8px] text-gray-500 font-bold leading-none">i</div>
+            <span className="text-[8px] text-gray-500 uppercase tracking-[0.2em] font-bold">
               INFORMATION COMMERCIALE : GUIDE GRATUIT SOUTENU PAR DES PARTENARIATS AFFILIÉS
             </span>
           </div>
