@@ -24,7 +24,11 @@ export default function BrandCard({ brand, gclid, rank }: BrandCardProps) {
 
   const handleCardClick = () => {
     const finalUrl = buildUrl(brand.url, gclid);
-    track('Brand Click', { brand: brand.name });
+    track('Brand Click', { 
+      brand: brand.name,
+      gclid: gclid || 'none',
+      platform: 'desktop'
+    });
     if (typeof window !== "undefined" && window.gtag_report_conversion) {
       window.gtag_report_conversion(finalUrl);
     } else {

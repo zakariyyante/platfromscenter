@@ -26,7 +26,11 @@ function MobileBrandCard({ brand, gclid, label, labelColor }: { brand: Brand, gc
 
   const handleCardClick = () => {
     const finalUrl = buildUrl(brand.url, gclid);
-    track('Brand Click', { brand: brand.name });
+    track('Brand Click', { 
+      brand: brand.name,
+      gclid: gclid || 'none',
+      platform: 'mobile-modal'
+    });
     if (typeof window !== "undefined" && window.gtag_report_conversion) {
       window.gtag_report_conversion(finalUrl);
     } else {
