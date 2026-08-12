@@ -55,7 +55,7 @@ export default async function Home(props: {
       <Footer />
       
       {/* Mobile Modal Logic */}
-      <MobilePopup brands={mobileBrands} gclid={gclidValue} />
+      <MobilePopup gclid={gclidValue} />
     </div>
   );
 }

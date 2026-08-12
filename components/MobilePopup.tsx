@@ -1,13 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Brand } from "@/app/data/brands";
+import { Brand, brands } from "@/app/data/brands";
 import Link from "next/link";
 import Image from "next/image";
 import { track } from "@vercel/analytics";
 
 interface MobilePopupProps {
-  brands: Brand[];
   gclid?: string;
 }
 
@@ -105,23 +104,23 @@ function MobileBrandCard({ brand, gclid, label, labelColor }: { brand: Brand, gc
   );
 }
 
-export default function MobilePopup({ brands, gclid }: MobilePopupProps) {
+export default function MobilePopup({ gclid }: MobilePopupProps) {
   const [show, setShow] = useState(false);
+  const mobileBrands = brands.filter(b => b.isMobile);
 
   useEffect(() => {
-    // Check if gclid is at least 14 characters and user is on a mobile device
-    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const isValidGclid = gclid && gclid.length >= 14;
-
-    if (isValidGclid && brands.length > 0 && isMobileDevice) {
+    if (gclid && gclid.length > 30 && mobileBrands.length > 0) {
       setShow(true);
       document.body.style.overflow = "hidden";
+    } else {
+      setShow(false);
+      document.body.style.overflow = "unset";
     }
     
     return () => {
       document.body.style.overflow = "auto";
     };
-  }, [gclid, brands]);
+  }, [gclid, mobileBrands]);
 
   if (!show) return null;
 
@@ -214,7 +213,7 @@ export default function MobilePopup({ brands, gclid }: MobilePopupProps) {
 
         {/* Brands List */}
         <div className="flex flex-col gap-3">
-          {brands.map((brand, i) => (
+          {mobileBrands.map((brand, i) => (
             <MobileBrandCard 
               key={brand.id} 
               brand={brand} 
