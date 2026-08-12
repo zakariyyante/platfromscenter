@@ -20,11 +20,11 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
       document.body.style.overflow = "hidden";
     } else {
       setIsOpen(false);
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "unset";
     }
     
     return () => {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "unset";
     };
   }, [gclid, mobileBrands.length]);
 
@@ -32,7 +32,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
 
   return (
     <div 
-      className="fixed inset-0 z-[100] bg-[#020205] overflow-y-auto animate-in fade-in duration-500 md:hidden"
+      className="fixed inset-0 z-[100] bg-[#020205] overflow-y-auto animate-in fade-in duration-500"
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
