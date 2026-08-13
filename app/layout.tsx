@@ -40,7 +40,9 @@ export default function RootLayout({
                 }
               };
               gtag('event', 'conversion', {
-                'send_to': '${GA_MEASUREMENT_ID}/CONVERSION_LABEL',
+                'send_to': '${GA_MEASUREMENT_ID}/gecmCKbt--AcELqDp7JE',
+                'value': 1.0,
+                'currency': 'USD',
                 'event_callback': callback
               });
               return false;
