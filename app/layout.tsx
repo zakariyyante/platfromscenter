@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import "./globals.css";
 
-const GA_MEASUREMENT_ID = "G-XXXXXXXXXX"; // Placeholder
+const GA_MEASUREMENT_ID = "AW-18359108026";
 
 export const metadata: Metadata = {
   title: "Platformscenter - Les Meilleurs Sites de Jeux en France",
