@@ -22,17 +22,6 @@ export const brands: Brand[] = [
     votes: 2556,
   },
   {
-    id: "SlotRush",
-    name: "SlotRush",
-    logo: "/brands/SLOTRUSH.png",
-    rating: 9.8,
-    bonus: "Jusqu'à 4000€ + 200FS",
-    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR24&clickid=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
-  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -44,6 +33,18 @@ export const brands: Brand[] = [
     
     
   },
+  {
+    id: "SlotRush",
+    name: "SlotRush",
+    logo: "/brands/SLOTRUSH.png",
+    rating: 9.8,
+    bonus: "Jusqu'à 4000€ + 200FS",
+    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR24&clickid=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+ 
   {
     id: "BravoPlay",
     name: "BravoPlay",
