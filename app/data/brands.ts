@@ -22,16 +22,14 @@ export const brands: Brand[] = [
     votes: 2556,
   },
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% jusqu’à 15000€ + 550FS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR24&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-    
+    id: "WinoCasino",
+    name: "WinoCasino",
+    logo: "/brands/wino.svg",
+    rating: 9.9,
+    bonus: "600% jusqu’à 10000€",
+    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR24&afp=",
+    isMobile: true,
+    votes: 12450,
   },
   {
     id: "SlotRush",
@@ -44,7 +42,18 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
- 
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% jusqu’à 15000€ + 550FS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR24&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+    
+  }, 
   {
     id: "BravoPlay",
     name: "BravoPlay",
