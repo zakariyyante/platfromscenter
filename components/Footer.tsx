@@ -5,14 +5,14 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#0a070f] pt-24 pb-12 border-t border-white/5">
+    <footer className="bg-[#010401] pt-24 pb-12 border-t border-white/5">
       <div className="container mx-auto px-6">
         {/* Centered Logo */}
         <div className="flex justify-center mb-20">
           <Link href="/">
             <div className="relative w-48 h-24">
               <Image 
-                src="/logo.png" 
+                src="/logo-portal-v1.png" 
                 alt="Logo" 
                 fill
                 className="object-contain opacity-50" 
@@ -24,14 +24,14 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 mb-24 max-w-6xl mx-auto">
           <div className="md:col-span-2">
             <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-[11px] flex items-center gap-2">
-              <span className="w-4 h-[1px] bg-cyan-400" /> DIVULGATION D&apos;AFFILIATION
+              <span className="w-4 h-[1px] bg-emerald-400" /> DIVULGATION D&apos;AFFILIATION
             </h4>
             <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
-              Platforms Center opère comme un comparateur indépendant. Des rémunérations affiliées peuvent être perçues auprès des opérateurs mentionnés ici. Ces partenariats peuvent influer sur le classement des enseignes, sans toutefois altérer la neutralité de nos évaluations issues de tests concrets.
+              Platforms Portal opère comme un comparateur indépendant. Des rémunérations affiliées peuvent être perçues auprès des opérateurs mentionnés ici. Ces partenariats peuvent influer sur le classement des enseignes, sans toutefois altérer la neutralité de nos évaluations issues de tests concrets.
             </p>
             <div className="flex items-center gap-2 mt-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
-              <span className="text-cyan-400 text-[10px] font-black uppercase tracking-widest">Contenu Publicitaire</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+              <span className="text-emerald-400 text-[10px] font-black uppercase tracking-widest">Contenu Publicitaire</span>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="text-center border-t border-white/5 pt-10">
           <p className="text-gray-700 text-[9px] font-bold uppercase tracking-[0.2em]">
-            © {currentYear} platformscenter.com • Tous Droits Réservés
+            © {currentYear} platformsportal.org • Tous Droits Réservés
           </p>
         </div>
       </div>

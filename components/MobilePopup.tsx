@@ -32,20 +32,20 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
 
   return (
     <div 
-      className="fixed inset-0 z-[100] bg-[#020205] overflow-y-auto animate-in fade-in duration-500"
+      className="fixed inset-0 z-[100] bg-[#010401] overflow-y-auto animate-in fade-in duration-500"
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
     >
       <div className="min-h-screen flex flex-col spotlight-bg">
         {/* Modal Header */}
-        <div className="sticky top-0 z-[110] bg-[#06020f]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
-          <div className="relative w-32 h-8">
+        <div className="sticky top-0 z-[110] bg-[#040c04]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
+          <div className="relative w-40 h-10">
             <Image 
-              src="/logo.png" 
+              src="/logo-portal-v1.png" 
               alt="Logo" 
               fill 
-              className="object-contain object-left scale-125 origin-left" 
+              className="object-contain object-left scale-150 origin-left" 
               priority
               sizes="128px"
             />
@@ -54,9 +54,9 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
           {/* Burger Menu Mock */}
           <button className="text-white p-2" aria-label="Menu Principal">
             <div className="w-5 h-4 flex flex-col justify-between items-end">
-              <span className="h-0.5 w-5 bg-[#ffd700] rounded-full" />
-              <span className="h-0.5 w-3 bg-[#ffd700] rounded-full" />
-              <span className="h-0.5 w-5 bg-[#ffd700] rounded-full" />
+              <span className="h-0.5 w-5 bg-[#10b981] rounded-full" />
+              <span className="h-0.5 w-3 bg-[#10b981] rounded-full" />
+              <span className="h-0.5 w-5 bg-[#10b981] rounded-full" />
             </div>
           </button>
         </div>
@@ -83,7 +83,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                 {[...Array(2)].map((_, listIdx) => (
                   <div key={listIdx} className="flex gap-2 px-1">
                     {[
-                      { icon: 'shield-check', text: 'Retraits Rapides', color: 'bg-blue-900/30 border-blue-800/50 text-blue-400' },
+                      { icon: 'shield-check', text: 'Retraits Rapides', color: 'bg-emerald-900/30 border-emerald-800/50 text-emerald-400' },
                       { icon: 'shield-exclamation', text: '18+', color: 'bg-red-950/30 border-red-900/50 text-red-500' },
                       { icon: 'badge-check', text: 'Licence ANJ', color: 'bg-[#b8860b]/10 border-[#b8860b]/30 text-[#ffd700]' },
                       { icon: 'headset', text: 'Support 24/7', color: 'bg-slate-900/50 border-slate-800 text-slate-400' }
@@ -139,7 +139,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
         {/* Modal Footer */}
         <div className="bg-black/40 p-6 border-t border-white/5 text-center mt-auto">
           <div className="text-[8px] text-white/10 uppercase tracking-[0.4em] font-black">
-            © 2026 PLATFORMSCENTER.COM
+            © 2026 PLATFORMSPORTAL.ORG
           </div>
         </div>
       </div>

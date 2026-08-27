@@ -28,7 +28,7 @@ export default async function Home(props: {
           <div className="container mx-auto">
             <div className="text-center mb-20">
               <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter mb-4">
-                Top <span className="text-cyan-400">Plateformes</span> Recommandées
+                Top <span className="text-emerald-400">Plateformes</span> Recommandées
               </h2>
               <p className="text-gray-500 text-sm max-w-xl mx-auto font-medium leading-relaxed">
                 Notre sélection rigoureuse des meilleurs sites basés sur la sécurité, les bonus et l&apos;expérience utilisateur.

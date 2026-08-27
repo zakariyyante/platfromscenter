@@ -16,7 +16,7 @@ export default function TermsPage() {
               Bienvenue dans le portail <span className="text-cyan-400 font-bold uppercase tracking-widest text-xs">Platforms Center</span>.
             </p>
             <p>
-              Ces termes et conditions décrivent les règles et règlements pour l&apos;utilisation du site Web de Platformscenter, situé à l&apos;adresse platformscenter.com.
+              Ces termes et conditions décrivent les règles et règlements pour l&apos;utilisation du site Web de Platforms Portal, situé à l&apos;adresse platformsportal.org.
             </p>
             <p>
               En accédant à ce site Web, nous supposons que vous acceptez ces termes et conditions. Ne continuez pas à utiliser Platformscenter si vous n&apos;acceptez pas de prendre tous les termes et conditions énoncés sur cette page.

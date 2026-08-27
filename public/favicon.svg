@@ -1,4 +1,13 @@
 <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <path d="M16 8 L48 8 L48 40 Q32 56 16 40 Z" fill="#f97316" />
-  <path d="M30 16 L38 16 L28 32 L36 32 L24 48" stroke="white" stroke-width="4" fill="none" />
+  <defs>
+    <radialGradient id="portalGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="none" stroke="url(#portalGlow)" stroke-width="4" />
+  <circle cx="32" cy="32" r="15" fill="#facc15" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <path d="M32 10 L32 54 M10 32 L54 32" stroke="#4ade80" stroke-width="1" opacity="0.3" />
 </svg>

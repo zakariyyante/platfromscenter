@@ -52,7 +52,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
 
   if (variant === 'modal') {
     const labels = [
-      { text: "Nouvelle Offre", color: "bg-blue-900" },
+      { text: "Nouvelle Offre", color: "bg-emerald-900" },
       { text: "Retraits Rapides", color: "bg-[#8b6d31]" }, 
       { text: "Meilleure Offre", color: "bg-[#0a0a0f]" },
     ];

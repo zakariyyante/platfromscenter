@@ -10,12 +10,12 @@
 }
 
 :root {
-  --background: #020205;
-  --foreground: #ffffff;
-  --card-bg: rgba(10, 10, 20, 0.7);
-  --primary: #0ea5e9;
-  --accent: #22d3ee;
-  --highlight: #6366f1;
+  --background: #010401;
+  --foreground: #f0fdf4;
+  --card-bg: rgba(6, 12, 8, 0.7);
+  --primary: #10b981;
+  --accent: #4ade80;
+  --highlight: #facc15;
 }
 
 body {
@@ -29,17 +29,17 @@ body {
 
 .cyber-grid {
   background-image: 
-    linear-gradient(rgba(14, 165, 233, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(14, 165, 233, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 185, 129, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
-.cyber-glow-blue {
-  box-shadow: 0 0 15px rgba(14, 165, 233, 0.3);
+.cyber-glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
 }
 
 .cyber-glow-text {
-  text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.5);
 }
 
 .cyber-border {
@@ -88,7 +88,7 @@ body {
 }
 
 .tech-gradient-text {
-  @apply bg-clip-text text-transparent bg-linear-to-r from-white via-[#22d3ee] to-[#6366f1];
+  @apply bg-clip-text text-transparent bg-linear-to-r from-white via-[#10b981] to-[#fbbf24];
 }
 
 @keyframes float {
@@ -113,7 +113,7 @@ body {
 }
 
 .spotlight-bg {
-  background: radial-gradient(circle at 50% -20%, #1a1433 0%, #020205 60%);
+  background: radial-gradient(circle at 50% -20%, #064e3b 0%, #010401 60%);
 }
 
 @keyframes marquee {

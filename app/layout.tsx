@@ -6,8 +6,8 @@ import "./globals.css";
 const GA_MEASUREMENT_ID = "AW-18359108026";
 
 export const metadata: Metadata = {
-  title: "Platformscenter - Les Meilleurs Sites de Jeux en France",
-  description: "Trouvez les meilleures plateformes de jeux en France. Critiques d'experts, bonus exclusifs et paiements rapides.",
+  title: "Platforms Portal - Les Meilleurs Sites de Jeux en France",
+  description: "Accédez au portail des meilleures plateformes de jeux en France. Critiques d'experts, bonus exclusifs et paiements rapides.",
   icons: {
     icon: "/favicon.svg",
   },
