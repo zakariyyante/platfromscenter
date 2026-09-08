@@ -88,9 +88,9 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                     {[
                       { isFlag: true, text: 'France', color: 'bg-[#0a0a0f] border-[#ffd700] text-[#ffd700]' },
                       { type: 'icon', icon: 'bitcoin', text: 'Crypto Pay', color: 'bg-[#0a0a0f] border-orange-500/50 text-orange-400' },
-                      { type: 'icon', icon: 'bank', text: 'Virement', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
+                      { type: 'icon', icon: 'bank', text: 'Virement', color: 'bg-[#0a0a0f] border-emerald-500/50 text-emerald-400' },
                       { type: 'icon', icon: 'shield', text: 'Retraits Rapides', color: 'bg-[#0a0a0f] border-emerald-800/50 text-emerald-400' },
-                      { type: 'icon', icon: 'lock', text: 'Sécurité SSL', color: 'bg-[#0a0a0f] border-cyan-500/50 text-cyan-400' },
+                      { type: 'icon', icon: 'lock', text: 'Sécurité SSL', color: 'bg-[#0a0a0f] border-emerald-500/50 text-emerald-400' },
                       { icon: 'shield-exclamation', text: '18+', color: 'bg-[#0a0a0f] border-red-900/50 text-red-500' },
                       { icon: 'badge-check', text: 'Licence ANJ', color: 'bg-[#0a0a0f] border-[#b8860b]/30 text-[#ffd700]' },
                       { type: 'icon', icon: 'support', text: 'Support 24/7', color: 'bg-[#0a0a0f] border-slate-800 text-slate-400' }

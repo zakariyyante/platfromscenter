@@ -55,14 +55,14 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
     if (rank === 1) {
       label = { text: "Meilleur Casino", color: "bg-[#b8860b]" };
     } else if (rank === 2) {
-      label = { text: "Nouveau Casino", color: "bg-blue-900" };
+      label = { text: "Nouveau Casino", color: "bg-emerald-950" };
     } else if (rank === 3) {
       label = { text: "Retrait Rapide", color: "bg-emerald-900" };
     }
 
     return (
       <div 
-        className="bg-[#0f0f15] border border-[#b8860b]/40 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(184,134,11,0.35)] active:shadow-[0_0_50px_rgba(184,134,11,0.6)] transition-all duration-500"
+        className="bg-[#060c08] border border-[#b8860b]/40 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(184,134,11,0.35)] active:shadow-[0_0_50px_rgba(184,134,11,0.6)] transition-all duration-500"
         onClick={handleCardClick}
       >
         <div className="absolute inset-0 bg-[#b8860b]/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity" />
@@ -117,7 +117,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
   // Default Desktop variant
   return (
     <div 
-      className="bg-[#120b1e] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10"
+      className="bg-[#060c08] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10"
       onClick={handleCardClick}
     >
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-8">
@@ -150,8 +150,8 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
         </div>
 
         <div className="flex flex-col items-center md:items-end text-center md:text-right">
-          <div className="bg-cyan-500/10 border border-cyan-500/20 px-3 py-1 rounded-full mb-4">
-            <span className="text-[9px] font-black uppercase tracking-widest text-cyan-400">Bonus Exclusif</span>
+          <div className="bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full mb-4">
+            <span className="text-[9px] font-black uppercase tracking-widest text-emerald-400">Bonus Exclusif</span>
           </div>
           <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-tight max-w-xs">
             {brand.bonus}

@@ -13,26 +13,26 @@ export default function TermsPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              Bienvenue dans le portail <span className="text-cyan-400 font-bold uppercase tracking-widest text-xs">Platforms Center</span>.
+              Bienvenue dans le portail <span className="text-emerald-400 font-bold uppercase tracking-widest text-xs">Platforms Portal</span>.
             </p>
             <p>
               Ces termes et conditions décrivent les règles et règlements pour l&apos;utilisation du site Web de Platforms Portal, situé à l&apos;adresse platformsportal.org.
             </p>
             <p>
-              En accédant à ce site Web, nous supposons que vous acceptez ces termes et conditions. Ne continuez pas à utiliser Platformscenter si vous n&apos;acceptez pas de prendre tous les termes et conditions énoncés sur cette page.
+              En accédant à ce site Web, nous supposons que vous acceptez ces termes et conditions. Ne continuez pas à utiliser Platforms Portal si vous n&apos;acceptez pas de prendre tous les termes et conditions énoncés sur cette page.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Licence</h2>
             <p>
-              Sauf indication contraire, Platformscenter et/ou ses concédants de licence détiennent les droits de propriété intellectuelle pour tout le matériel sur Platformscenter. Tous les droits de propriété intellectuelle sont réservés. Vous pouvez y accéder à partir de Platformscenter pour votre usage personnel, sous réserve des restrictions définies dans les présents termes et conditions.
+              Sauf indication contraire, Platforms Portal et/ou ses concédants de licence détiennent les droits de propriété intellectuelle pour tout le matériel sur Platforms Portal. Tous les droits de propriété intellectuelle sont réservés. Vous pouvez y accéder à partir de Platforms Portal pour votre usage personnel, sous réserve des restrictions définies dans les présents termes et conditions.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Vous ne devez pas :</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Republier le matériel provenant de Platformscenter</li>
-              <li>Vendre, louer ou sous-licencier du matériel provenant de Platformscenter</li>
-              <li>Reproduire, dupliquer ou copier du matériel provenant de Platformscenter</li>
-              <li>Redistribuer le contenu de Platformscenter</li>
+              <li>Republier le matériel provenant de Platforms Portal</li>
+              <li>Vendre, louer ou sous-licencier du matériel provenant de Platforms Portal</li>
+              <li>Reproduire, dupliquer ou copier du matériel provenant de Platforms Portal</li>
+              <li>Redistribuer le contenu de Platforms Portal</li>
             </ul>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Avis de Non-responsabilité</h2>

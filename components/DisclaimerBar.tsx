@@ -23,7 +23,7 @@ export default function DisclaimerBar() {
         {/* Center: Risk Info */}
         <div className="flex-1 max-w-xl text-center lg:text-left">
           <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest leading-loose">
-            L&apos;utilisation comporte des risques : endettement, isolement, dépendance. Pour être aidé, appelez le <span className="text-white">09 74 75 13 13</span> (appel non surtaxé) ou visitez <Link href="https://www.joueurs-info-service.fr/" className="text-cyan-400 border-b border-cyan-400/30">Service d&apos;Aide</Link>.
+            L&apos;utilisation comporte des risques : endettement, isolement, dépendance. Pour être aidé, appelez le <span className="text-white">09 74 75 13 13</span> (appel non surtaxé) ou visitez <Link href="https://www.joueurs-info-service.fr/" className="text-emerald-400 border-b border-emerald-400/30">Service d&apos;Aide</Link>.
           </p>
         </div>
 
