@@ -10,16 +10,27 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-    {
-    id: "TowerCasino",
-    name: "TowerCasino",
-    logo: "/brands/tower.png",
-    rating: 9.9,
-    bonus: "100% JUSQU'À 2000€ + 300TG",
-    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR35&clickid=",
-    isMobile: true,
-    votes: 12450,
-  },
+//     {
+//     id: "TowerCasino",
+//     name: "TowerCasino",
+//     logo: "/brands/tower.png",
+//     rating: 9.9,
+//     bonus: "100% JUSQU'À 2000€ + 300TG",
+//     url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR35&clickid=",
+//     isMobile: true,
+//     votes: 12450,
+//   },
+{
+  id: "SpinFormula",
+  name: "SpinFormula",
+  logo: "/brands/Spinformula.svg",
+  rating: 9.8,
+  bonus: "550% JUSQU'À 15000€ + 550TG",
+  url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+  isMobile: true,
+  votes: 12450,
+  
+},
   {
         id: "LuckyGem",
         name: "LuckyGem",
@@ -53,18 +64,7 @@ export const brands: Brand[] = [
 //     votes: 12450,
 //   },
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% JUSQU'À 15000€ + 550TG",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-    
-  }, 
+   
 //   {
 //       id: "RoyalDogs",
 //       name: "RoyalDogs",
