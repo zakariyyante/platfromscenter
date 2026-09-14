@@ -10,16 +10,28 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-//     {
-//     id: "TowerCasino",
-//     name: "TowerCasino",
-//     logo: "/brands/tower.png",
-//     rating: 9.9,
-//     bonus: "100% JUSQU'À 2000€ + 300TG",
-//     url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR35&clickid=",
-//     isMobile: true,
-//     votes: 12450,
-//   },
+    {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.9,
+    bonus: "JUSQU'À 15000€ + 550TG",
+    url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  },
+// {
+//   id: "VillaSpin",
+//   name: "VillaSpin",
+//   logo: "/brands/villaspin.webp",
+//   rating: 9.8,
+//   bonus: "500% JUSQU'À 15000€ + 500TG",
+//   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR35&aff_click_id=",
+//   isMobile: true,
+//   votes: 12450,
+  
+// },
+
 {
   id: "SpinFormula",
   name: "SpinFormula",
@@ -41,17 +53,17 @@ export const brands: Brand[] = [
         isMobile: true,
         votes: 12450,
       },
-  {
-    id: "VillaSpin",
-    name: "VillaSpin",
-    logo: "/brands/villaspin.webp",
-    rating: 9.8,
-    bonus: "500% JUSQU'À 15000€ + 500TG",
-    url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR35&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "VillaSpin",
+  //   name: "VillaSpin",
+  //   logo: "/brands/villaspin.webp",
+  //   rating: 9.8,
+  //   bonus: "500% JUSQU'À 15000€ + 500TG",
+  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR35&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   // {
   //       id: "WinPlace",
   //       name: "WinPlace",
