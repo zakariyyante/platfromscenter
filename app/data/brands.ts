@@ -10,16 +10,7 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-    {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.9,
-    bonus: "JUSQU'À 15000€ + 550TG",
-    url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+ 
 // {
 //   id: "VillaSpin",
 //   name: "VillaSpin",
@@ -53,6 +44,17 @@ export const brands: Brand[] = [
         isMobile: true,
         votes: 12450,
       },
+
+      {
+            id: "WinKingdom",
+            name: "WinKingdom",
+            logo: "/brands/winkingdom.svg",
+            rating: 9.9,
+            bonus: "JUSQU'À 15000€ + 550TG",
+            url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR35&visit_id=",
+            isMobile: true,
+            votes: 12450,
+          },
   // {
   //   id: "VillaSpin",
   //   name: "VillaSpin",
