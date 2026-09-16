@@ -11,17 +11,7 @@ export interface Brand {
 
 export const brands: Brand[] = [
  
-{
-  id: "GambleGorilla",
-  name: "GambleGorilla",
-  logo: "/brands/gamblegorilla.svg",
-  rating: 9.8,
-  bonus: "350% JUSQU'À 2000€ + 1000TG",
-  url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
-  isMobile: true,
-  votes: 12450,
-  
-},
+
 
 {
   id: "SpinFormula",
@@ -43,6 +33,18 @@ export const brands: Brand[] = [
         url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
         isMobile: true,
         votes: 12450,
+      },
+
+      {
+        id: "GambleGorilla",
+        name: "GambleGorilla",
+        logo: "/brands/gamblegorilla.svg",
+        rating: 9.8,
+        bonus: "350% JUSQU'À 2000€ + 1000TG",
+        url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
+        isMobile: true,
+        votes: 12450,
+        
       },
       {
         id: "BravoPlay",
