@@ -11,17 +11,17 @@ export interface Brand {
 
 export const brands: Brand[] = [
  
-// {
-//   id: "VillaSpin",
-//   name: "VillaSpin",
-//   logo: "/brands/villaspin.webp",
-//   rating: 9.8,
-//   bonus: "500% JUSQU'À 15000€ + 500TG",
-//   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR35&aff_click_id=",
-//   isMobile: true,
-//   votes: 12450,
+{
+  id: "GambleGorilla",
+  name: "GambleGorilla",
+  logo: "/brands/gamblegorilla.svg",
+  rating: 9.8,
+  bonus: "350% JUSQU'À 2000€ + 1000TG",
+  url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
+  isMobile: true,
+  votes: 12450,
   
-// },
+},
 
 {
   id: "SpinFormula",
@@ -45,16 +45,16 @@ export const brands: Brand[] = [
         votes: 12450,
       },
 
-      {
-            id: "WinKingdom",
-            name: "WinKingdom",
-            logo: "/brands/winkingdom.svg",
-            rating: 9.9,
-            bonus: "JUSQU'À 15000€ + 550TG",
-            url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR35&visit_id=",
-            isMobile: true,
-            votes: 12450,
-          },
+      // {
+      //       id: "WinKingdom",
+      //       name: "WinKingdom",
+      //       logo: "/brands/winkingdom.svg",
+      //       rating: 9.9,
+      //       bonus: "JUSQU'À 15000€ + 550TG",
+      //       url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR35&visit_id=",
+      //       isMobile: true,
+      //       votes: 12450,
+      //     },
   // {
   //   id: "VillaSpin",
   //   name: "VillaSpin",
