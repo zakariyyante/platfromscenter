@@ -112,16 +112,16 @@ export const brands: Brand[] = [
 //       votes: 12450,
 //   },
   
-  // {
-  //   id: "bwin-fr",
-  //   name: "Bwin",
-  //   logo: "/brands/bwin_dark.png",
-  //   rating: 9.9,
-  //   bonus: "Votre mise remboursée jusqu'à 100€",
-  //   url: "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2159573&clickid=",
-  //   isMobile: false,
-  //   votes: 2556,
-  // },
+  {
+    id: "bwin-fr",
+    name: "Bwin",
+    logo: "/brands/bwin_dark.png",
+    rating: 9.9,
+    bonus: "Votre mise remboursée jusqu'à 100€",
+    url: "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2159573&clickid=",
+    isMobile: false,
+    votes: 2556,
+  },
   
 //   {
 //     id: "WinoCasino",
