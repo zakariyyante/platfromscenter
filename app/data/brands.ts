@@ -44,7 +44,17 @@ export const brands: Brand[] = [
         isMobile: true,
         votes: 12450,
       },
-
+      {
+        id: "BravoPlay",
+        name: "BravoPlay",
+        logo: "/brands/bravoplay.svg",
+        rating: 9.8,
+        bonus: "JUSQU'À 5000€ + 150TG",
+        url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
+        isMobile: true,
+        votes: 12450,
+        
+      },
       // {
       //       id: "WinKingdom",
       //       name: "WinKingdom",
@@ -123,15 +133,5 @@ export const brands: Brand[] = [
 //   },
 
 
-  {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
-    rating: 9.8,
-    bonus: "Jusqu'à 5000€ + 150FS",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+ 
 ];
