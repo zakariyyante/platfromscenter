@@ -11,16 +11,16 @@ export interface Brand {
 
 export const brands: Brand[] = [
  
-  {
-      id: "Lussurio",
-      name: "Lussurio",
-      logo: "/brands/lussurio.svg",
-      rating: 9.9,
-      bonus: "550% JUSQU'À 3485€ + 400 TOURS GRATUITS",
-      url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+  // {
+  //     id: "Lussurio",
+  //     name: "Lussurio",
+  //     logo: "/brands/lussurio.svg",
+  //     rating: 9.9,
+  //     bonus: "550% JUSQU'À 3485€ + 400 TOURS GRATUITS",
+  //     url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR35&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
 
 {
   id: "SpinFormula",
