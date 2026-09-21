@@ -21,17 +21,27 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
+  // {
+  //       id: "SpinMillion",
+  //       name: "SpinMillion",
+  //       logo: "/brands/spinmillion.png",
+  //       rating: 9.9,
+  //       bonus: "200% JUSQU'À 1000€ + 100 TOURS GRATUITS",
+  //       url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR35&aff_click_id=",
+  //       isMobile: true,
+  //       votes: 12450,
+  //     },
   {
-        id: "SpinMillion",
-        name: "SpinMillion",
-        logo: "/brands/spinmillion.png",
-        rating: 9.9,
-        bonus: "200% JUSQU'À 1000€ + 100 TOURS GRATUITS",
-        url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR35&aff_click_id=",
-        isMobile: true,
-        votes: 12450,
-      },
-
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
   {
         id: "LuckyGem",
         name: "LuckyGem",
@@ -42,17 +52,7 @@ export const brands: Brand[] = [
         isMobile: true,
         votes: 12450,
       },
-      {
-        id: "SpinFormula",
-        name: "SpinFormula",
-        logo: "/brands/Spinformula.svg",
-        rating: 9.8,
-        bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-        url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
-        
-      },
+     
       {
         id: "GambleGorilla",
         name: "GambleGorilla",
