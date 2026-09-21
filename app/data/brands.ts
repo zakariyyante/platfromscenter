@@ -75,6 +75,16 @@ export const brands: Brand[] = [
         votes: 12450,
         
       },
+      {
+            id: "Emberbet",
+            name: "Emberbet",
+            logo: "/brands/emerbet.svg",
+            rating: 9.9,
+            bonus: "200% JUSQU'À 1000€ + 100 TOURS GRATUITS",
+            url: "https://bestcpa.online/click?o=650&a=36&link_id=1042&sub_id1=EmberBet-SL2FR35&aff_click_id=",
+            isMobile: true,
+            votes: 12450,
+          },
       // {
       //       id: "WinKingdom",
       //       name: "WinKingdom",
