@@ -67,28 +67,28 @@ export const brands: Brand[] = [
         votes: 12450,
       },
 
-  // {
-  //      id: "LuckyGem",
-  //      name: "LuckyGem",
-  //      logo: "/brands/lucky.svg",
-  //      rating: 9.9,
-  //      bonus: "700% + 700 TOURS GRATUITS",
-  //      url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
-  //      isMobile: true,
-  //      votes: 12450,
-   //   },
-     
-      {
-        id: "GambleGorilla",
-        name: "GambleGorilla",
-        logo: "/brands/gamblegorilla.svg",
-        rating: 9.8,
-        bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
-        url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
-        
+   {
+       id: "LuckyGem",
+        name: "LuckyGem",
+        logo: "/brands/lucky.svg",
+        rating: 9.9,
+        bonus: "700% + 700 TOURS GRATUITS",
+        url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
+        isMobile: true,
+        votes: 12450,
       },
+     
+     // {
+      //  id: "GambleGorilla",
+      //  name: "GambleGorilla",
+      //  logo: "/brands/gamblegorilla.svg",
+      //  rating: 9.8,
+      //  bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+      //  url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
+      //  isMobile: true,
+      //  votes: 12450,
+        
+      //},
      // {
      //  id: "BravoPlay",
      //   name: "BravoPlay",
