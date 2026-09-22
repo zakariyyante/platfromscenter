@@ -67,16 +67,16 @@ export const brands: Brand[] = [
         votes: 12450,
       },
 
-  {
-        id: "LuckyGem",
-        name: "LuckyGem",
-        logo: "/brands/lucky.svg",
-        rating: 9.9,
-        bonus: "700% + 700 TOURS GRATUITS",
-        url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
-        isMobile: true,
-        votes: 12450,
-      },
+  // {
+  //      id: "LuckyGem",
+  //      name: "LuckyGem",
+  //      logo: "/brands/lucky.svg",
+  //      rating: 9.9,
+  //      bonus: "700% + 700 TOURS GRATUITS",
+  //      url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
+  //      isMobile: true,
+  //      votes: 12450,
+   //   },
      
       {
         id: "GambleGorilla",
