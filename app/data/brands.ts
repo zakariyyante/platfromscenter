@@ -31,6 +31,20 @@ export const brands: Brand[] = [
   //       isMobile: true,
   //       votes: 12450,
   //     },
+
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+
+
   {
     id: "SpinReelz",
     name: "SpinReelz",
@@ -43,16 +57,16 @@ export const brands: Brand[] = [
     
   },
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+        id: "VegasNova",
+        name: "VegasNova",
+        logo: "/brands/vegasnova.webp",
+        rating: 9.9,
+        bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
+        url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
+        isMobile: true,
+        votes: 12450,
+      },
+
   {
         id: "LuckyGem",
         name: "LuckyGem",
