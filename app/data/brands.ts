@@ -59,7 +59,7 @@ export const brands: Brand[] = [
   {
     id: "USpin",
     name: "USpin",
-    logo: "/brands/uspin.svg",
+    logo: "/brands/uspinme.svg",
     rating: 9.8,
     bonus: "JUSQU'À 3000€ + 150 TOURS GRATUITS",
     url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR35&payload=",
