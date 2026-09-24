@@ -43,7 +43,26 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
-
+  {
+        id: "VegasNova",
+        name: "VegasNova",
+        logo: "/brands/vegasnova.webp",
+        rating: 9.9,
+        bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
+        url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
+        isMobile: true,
+        votes: 12450,
+      },
+      {
+            id: "Kingia",
+            name: "Kingia",
+            logo: "/brands/kingia.webp",
+            rating: 9.9,
+            bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
+            url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+            isMobile: true,
+            votes: 12450,
+          },
 
   {
     id: "SpinReelz",
@@ -56,27 +75,8 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
-  {
-    id: "USpin",
-    name: "USpin",
-    logo: "/brands/uspinme.svg",
-    rating: 9.8,
-    bonus: "JUSQU'À 3000€ + 150 TOURS GRATUITS",
-    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR35&payload=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
-  {
-        id: "VegasNova",
-        name: "VegasNova",
-        logo: "/brands/vegasnova.webp",
-        rating: 9.9,
-        bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
-        url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
-      },
+ 
+
 
    //{
    //    id: "LuckyGem",
@@ -121,16 +121,18 @@ export const brands: Brand[] = [
       //      isMobile: true,
       //      votes: 12450,
       //    },
-          {
-                id: "Kingia",
-                name: "Kingia",
-                logo: "/brands/kingia.webp",
-                rating: 9.9,
-                bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
-                url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
-                isMobile: true,
-                votes: 12450,
-              },
+          
+           //   {
+          //      id: "USpin",
+          //      name: "USpin",
+          //      logo: "/brands/uspinme.svg",
+          //      rating: 9.8,
+          //      bonus: "JUSQU'À 3000€ + 150 TOURS GRATUITS",
+          //      url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR35&payload=",
+          //      isMobile: true,
+          //      votes: 12450,
+          //      
+          //    },
       // {
       //       id: "WinKingdom",
       //       name: "WinKingdom",
