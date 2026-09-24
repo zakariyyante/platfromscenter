@@ -31,17 +31,17 @@ export const brands: Brand[] = [
   //       isMobile: true,
   //       votes: 12450,
   //     },
-
   {
-        id: "VegasNova",
-        name: "VegasNova",
-        logo: "/brands/vegasnova.webp",
-        rating: 9.9,
-        bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
-        url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
-      },
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -54,28 +54,39 @@ export const brands: Brand[] = [
     
   },
   
+  {
+        id: "VegasNova",
+        name: "VegasNova",
+        logo: "/brands/vegasnova.webp",
+        rating: 9.9,
+        bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
+        url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
+        isMobile: true,
+        votes: 12450,
+      },
+ 
       {
-            id: "Kingia",
-            name: "Kingia",
-            logo: "/brands/kingia.webp",
+            id: "Betportal",
+            name: "Betportal",
+            logo: "/brands/betportal.svg",
             rating: 9.9,
-            bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
-            url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+            bonus: "300% JUSQU'À 1000 €/$ + 250 TOURS GRATUITS",
+            url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
             isMobile: true,
             votes: 12450,
           },
+     // {
+     //       id: "Kingia",
+     //       name: "Kingia",
+     //       logo: "/brands/kingia.webp",
+      //      rating: 9.9,
+     //       bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
+     //       url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+     //       isMobile: true,
+     //       votes: 12450,
+      //    },
 
-  {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+  
  
 
 
