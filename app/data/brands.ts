@@ -43,28 +43,15 @@ export const brands: Brand[] = [
     
   },
   {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
-  
+        id: "GoldenPlay",
+        name: "GoldenPlay",
+        logo: "/brands/goldenplay.svg",
+        rating: 9.9,
+        bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
+        url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
+        isMobile: true,
+        votes: 12450,
+      },
   {
         id: "VegasNova",
         name: "VegasNova",
@@ -75,6 +62,32 @@ export const brands: Brand[] = [
         isMobile: true,
         votes: 12450,
       },
+      
+  {
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+  
+ // {
+  //  id: "SpinFormula",
+  //  name: "SpinFormula",
+  //  logo: "/brands/Spinformula.svg",
+  //  rating: 9.8,
+  //  bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+  //  url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+  //  isMobile: true,
+  //  votes: 12450,
+    
+  // },
+  
+  
  
       {
             id: "Betportal",
