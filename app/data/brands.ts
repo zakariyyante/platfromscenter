@@ -32,6 +32,17 @@ export const brands: Brand[] = [
   //       votes: 12450,
   //     },
   {
+    id: "Tower Casino",
+    name: "Tower Casino",
+    logo: "/brands/towercasino.png",
+    rating: 9.8,
+    bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
+    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR35&clickid=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+  {
     id: "SpinReelz",
     name: "SpinReelz",
     logo: "/brands/spinreelz.svg",
