@@ -31,16 +31,7 @@ export const brands: Brand[] = [
   //       isMobile: true,
   //       votes: 12450,
   //     },
-  {
-        id: "GoldenPlay",
-        name: "GoldenPlay",
-        logo: "/brands/goldenplay.svg",
-        rating: 9.9,
-        bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
-        url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
-        isMobile: true,
-        votes: 12450,
-      },
+  
   {
     id: "Tower Casino",
     name: "Tower Casino",
@@ -63,17 +54,37 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },   
-  {
-        id: "VegasNova",
-        name: "VegasNova",
-        logo: "/brands/vegasnova.webp",
-        rating: 9.9,
-        bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
-        url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
-      },
-    
+  //  {
+  //       id: "GoldenPlay",
+  //       name: "GoldenPlay",
+  //       logo: "/brands/goldenplay.svg",
+  //       rating: 9.9,
+  //       bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
+  //       url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
+  //       isMobile: true,
+  //       votes: 12450,
+  //     },
+  // {
+  //       id: "VegasNova",
+  //       name: "VegasNova",
+  //       logo: "/brands/vegasnova.webp",
+  //       rating: 9.9,
+  //       bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
+  //       url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
+  //       isMobile: true,
+  //       votes: 12450,
+  //     },
+     {
+      id: "BravoPlay",
+       name: "BravoPlay",
+       logo: "/brands/bravoplay.svg",
+      rating: 9.8,
+      bonus: "JUSQU'À 5000€ + 150 TOURS GRATUITS",
+      url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
+       isMobile: true,
+      votes: 12450,
+        
+     },
   //{
    // id: "SpinReelz",
     //name: "SpinReelz",
@@ -137,17 +148,7 @@ export const brands: Brand[] = [
       //  votes: 12450,
         
       //},
-     // {
-     //  id: "BravoPlay",
-     //   name: "BravoPlay",
-     //   logo: "/brands/bravoplay.svg",
-     //  rating: 9.8,
-     //  bonus: "JUSQU'À 5000€ + 150 TOURS GRATUITS",
-     //  url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
-     //   isMobile: true,
-     //  votes: 12450,
-        
-    //  },
+    
      // {
     //      id: "Emberbet",
      //       name: "Emberbet",
