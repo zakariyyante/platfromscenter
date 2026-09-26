@@ -52,7 +52,17 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
-  
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+   },   
   {
         id: "VegasNova",
         name: "VegasNova",
@@ -63,43 +73,33 @@ export const brands: Brand[] = [
         isMobile: true,
         votes: 12450,
       },
-      
-  {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
     
-  },
+  //{
+   // id: "SpinReelz",
+    //name: "SpinReelz",
+   // logo: "/brands/spinreelz.svg",
+   // rating: 9.8,
+   // bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+    //url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+    //isMobile: true,
+   // votes: 12450,
+    
+  //},
   
- // {
-  //  id: "SpinFormula",
-  //  name: "SpinFormula",
-  //  logo: "/brands/Spinformula.svg",
-  //  rating: 9.8,
-  //  bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-  //  url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-  //  isMobile: true,
-  //  votes: 12450,
-    
-  // },
+ 
   
   
  
-      {
-            id: "Betportal",
-            name: "Betportal",
-            logo: "/brands/betportal.svg",
-            rating: 9.9,
-            bonus: "300% JUSQU'À 1000 €/$ + 250 TOURS GRATUITS",
-            url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
-            isMobile: true,
-            votes: 12450,
-          },
+    // {
+    //       id: "Betportal",
+    //        name: "Betportal",
+    //            logo: "/brands/betportal.svg",
+    //            rating: 9.9,
+    //            bonus: "300% JUSQU'À 1000 €/$ + 250 TOURS GRATUITS",
+    //            url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
+    //            isMobile: true,
+    //            votes: 12450,
+    //          },
      // {
      //       id: "Kingia",
      //       name: "Kingia",
