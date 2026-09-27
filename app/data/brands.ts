@@ -85,17 +85,17 @@ export const brands: Brand[] = [
     //   votes: 12450,
         
     //  },
-  {
-   id: "SpinReelz",
-    name: "SpinReelz",
-   logo: "/brands/spinreelz.svg",
-   rating: 9.8,
-   bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-    isMobile: true,
-   votes: 12450,
+  // {
+  //  id: "SpinReelz",
+  //   name: "SpinReelz",
+  //  logo: "/brands/spinreelz.svg",
+  //  rating: 9.8,
+  //  bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+  //   url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+  //   isMobile: true,
+  //  votes: 12450,
     
-  },
+  // },
   
  
   
@@ -126,28 +126,28 @@ export const brands: Brand[] = [
  
 
 
-   //{
-   //    id: "LuckyGem",
-   //     name: "LuckyGem",
-   //     logo: "/brands/lucky.svg",
-    //    rating: 9.9,
-   //     bonus: "700% + 700 TOURS GRATUITS",
-   //     url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
-   //     isMobile: true,
-   //     votes: 12450,
-   //    },
+   {
+       id: "LuckyGem",
+       name: "LuckyGem",
+       logo: "/brands/lucky.svg",
+        rating: 9.9,
+       bonus: "700% + 700 TOURS GRATUITS",
+       url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
+       isMobile: true,
+       votes: 12450,
+      },
      
-     // {
-      //  id: "GambleGorilla",
-      //  name: "GambleGorilla",
-      //  logo: "/brands/gamblegorilla.svg",
-      //  rating: 9.8,
-      //  bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
-      //  url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
-      //  isMobile: true,
-      //  votes: 12450,
+     {
+       id: "GambleGorilla",
+       name: "GambleGorilla",
+       logo: "/brands/gamblegorilla.svg",
+       rating: 9.8,
+       bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+       url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
+       isMobile: true,
+       votes: 12450,
         
-      //},
+      },
     
      // {
     //      id: "Emberbet",
