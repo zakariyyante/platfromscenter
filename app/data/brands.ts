@@ -147,17 +147,16 @@ export const brands: Brand[] = [
              votes: 12450,
             },
      
-     {
-       id: "GambleGorilla",
-       name: "GambleGorilla",
-       logo: "/brands/gamblegorilla.svg",
-       rating: 9.8,
-       bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
-       url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
-       isMobile: true,
-       votes: 12450,
-        
-      },
+    //{
+     //  id: "GambleGorilla",
+      //  name: "GambleGorilla",
+      //  logo: "/brands/gamblegorilla.svg",
+      //  rating: 9.8,
+      //  bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+      //  url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
+      //  isMobile: true,
+      //  votes: 12450,
+      //    },
     
      // {
     //      id: "Emberbet",
