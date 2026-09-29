@@ -131,7 +131,7 @@ export const brands: Brand[] = [
         name: "BravoPlay",
         logo: "/brands/bravoplay.svg",
        rating: 9.8,
-       bonus: "JUSQU'À 5000€ + 150 TOURS GRATUITS",
+       bonus: "JUSQU'À 5000€ + 150 TOURS GRATUITS ",
        url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
         isMobile: true,
        votes: 12450,
@@ -147,7 +147,7 @@ export const brands: Brand[] = [
       //         isMobile: true,
       //         votes: 12450,
       //      },
-    //{
+    // {
      //  id: "GambleGorilla",
       //  name: "GambleGorilla",
       //  logo: "/brands/gamblegorilla.svg",
