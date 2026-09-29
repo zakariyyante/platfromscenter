@@ -136,7 +136,7 @@ export const brands: Brand[] = [
         isMobile: true,
        votes: 12450,
         
-    //  },
+     },
      // {
      //          id: "VegasNova",
      //          name: "VegasNova",
