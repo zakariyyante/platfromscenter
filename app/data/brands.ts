@@ -66,18 +66,7 @@ export const brands: Brand[] = [
   //     },
   // 
    
-  // {
-  //  id: "SpinReelz",
-  //   name: "SpinReelz",
-  //  logo: "/brands/spinreelz.svg",
-  //  rating: 9.8,
-  //  bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-  //   url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-  //   isMobile: true,
-  //  votes: 12450,
-    
-  // },
-  
+
  
   
   
@@ -126,17 +115,29 @@ export const brands: Brand[] = [
        isMobile: true,
        votes: 12450,
       },
-          {
-       id: "BravoPlay",
-        name: "BravoPlay",
-        logo: "/brands/bravoplay.svg",
-       rating: 9.8,
-       bonus: "JUSQU'À 5000€ + 150 TOURS GRATUITS ",
-       url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
-        isMobile: true,
-       votes: 12450,
+         {
+    id: "SpinReelz",
+     name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+     url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+     isMobile: true,
+    votes: 12450,
+    
+  // },
+  
+     //    {
+      // id: "BravoPlay",
+      //   name: "BravoPlay",
+      //   logo: "/brands/bravoplay.svg",
+      //   rating: 9.8,
+      //   bonus: "JUSQU'À 5000€ + 150 TOURS GRATUITS ",
+      //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
+      //   isMobile: true,
+      //     votes: 12450,
         
-     },
+     // },
       //{
       //         id: "VegasNova",
       //          name: "VegasNova",
