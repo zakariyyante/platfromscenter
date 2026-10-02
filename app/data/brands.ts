@@ -43,6 +43,18 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
+    {
+       id: "GoldenPlay",
+       name: "GoldenPlay",
+       logo: "/brands/goldenplay.svg",
+       rating: 9.9,
+       bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
+       url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
+       isMobile: true,
+       votes: 12450,
+       },
+   
+   
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -54,18 +66,7 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },   
-  //  {
-  //       id: "GoldenPlay",
-  //       name: "GoldenPlay",
-  //       logo: "/brands/goldenplay.svg",
-  //       rating: 9.9,
-  //       bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
-  //       url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
-  //       isMobile: true,
-  //       votes: 12450,
-  //     },
-  // 
-   
+  
 
  
   
@@ -94,16 +95,6 @@ export const brands: Brand[] = [
 
   
  
-      {
-            id: "WinBeast",
-             name: "WinBeast",
-             logo: "/brands/winbeast.svg",
-             rating: 9.9,
-             bonus: " JUSQU'À 12000 € + 450 TOURS GRATUITS + 650 Paris Gratuits",
-             url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR35&visit_id=",
-             isMobile: true,
-             votes: 12450,
-            },
 
    {
        id: "LuckyGem",
@@ -126,6 +117,17 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
+
+   {
+        id: "WinBeast",
+         name: "WinBeast",
+         logo: "/brands/winbeast.svg",
+         rating: 9.9,
+         bonus: " JUSQU'À 12000 € + 450 TOURS GRATUITS + 650 Paris Gratuits",
+         url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR35&visit_id=",
+         isMobile: true,
+         votes: 12450,
+        },
   
      //    {
       // id: "BravoPlay",
