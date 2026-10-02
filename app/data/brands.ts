@@ -118,16 +118,16 @@ export const brands: Brand[] = [
     
    },
 
-   {
-        id: "WinBeast",
-         name: "WinBeast",
-         logo: "/brands/winbeast.svg",
-         rating: 9.9,
-         bonus: " JUSQU'À 12000 € + 450 TOURS GRATUITS + 650 Paris Gratuits",
-         url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR35&visit_id=",
-         isMobile: true,
-         votes: 12450,
-        },
+   //{
+   //     id: "WinBeast",
+    //     name: "WinBeast",
+    //     logo: "/brands/winbeast.svg",
+    //     rating: 9.9,
+    //     bonus: " JUSQU'À 12000 € + 450 TOURS GRATUITS + 650 Paris Gratuits",
+    //     url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR35&visit_id=",
+    //     isMobile: true,
+    //     votes: 12450,
+     //   },
   
      //    {
       // id: "BravoPlay",
