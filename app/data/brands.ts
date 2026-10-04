@@ -45,16 +45,16 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   //  },
-  {
-        id: "PikeCasino",
-        name: "PikeCasino",
-        logo: "/brands/pikecasino.svg",
-        rating: 9.9,
-        bonus: "200% + 400 TOURS GRATUITS",
-        url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR35&clickid=",
-        isMobile: true,
-        votes: 12450,
-      },
+  // {
+  //       id: "PikeCasino",
+  //       name: "PikeCasino",
+  //       logo: "/brands/pikecasino.svg",
+  //       rating: 9.9,
+  //       bonus: "200% + 400 TOURS GRATUITS",
+  //       url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR35&clickid=",
+  //       isMobile: true,
+  //       votes: 12450,
+  //     },
     {
        id: "GoldenPlay",
        name: "GoldenPlay",
@@ -65,6 +65,27 @@ export const brands: Brand[] = [
        isMobile: true,
        votes: 12450,
        },
+        {
+       id: "WinBeast",
+        name: "WinBeast",
+        logo: "/brands/winbeast.svg",
+        rating: 9.9,
+        bonus: " JUSQU'À 12000 € + 450 TOURS GRATUITS + 650 Paris Gratuits",
+        url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR35&visit_id=",
+        isMobile: true,
+        votes: 12450,
+       },
+           {
+               id: "USpin",
+               name: "USpin",
+               logo: "/brands/uspinme.svg",
+               rating: 9.8,
+               bonus: "JUSQU'À 3000€ + 150 TOURS GRATUITS",
+               url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR35&payload=",
+               isMobile: true,
+               votes: 12450,
+               
+             },
          {
        id: "LuckyGem",
        name: "LuckyGem",
@@ -120,16 +141,7 @@ export const brands: Brand[] = [
 
     
 
-   //{
-   //     id: "WinBeast",
-    //     name: "WinBeast",
-    //     logo: "/brands/winbeast.svg",
-    //     rating: 9.9,
-    //     bonus: " JUSQU'À 12000 € + 450 TOURS GRATUITS + 650 Paris Gratuits",
-    //     url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR35&visit_id=",
-    //     isMobile: true,
-    //     votes: 12450,
-     //   },
+  
   
      //    {
       // id: "BravoPlay",
@@ -174,17 +186,7 @@ export const brands: Brand[] = [
       //      votes: 12450,
       //    },
           
-           //   {
-          //      id: "USpin",
-          //      name: "USpin",
-          //      logo: "/brands/uspinme.svg",
-          //      rating: 9.8,
-          //      bonus: "JUSQU'À 3000€ + 150 TOURS GRATUITS",
-          //      url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR35&payload=",
-          //      isMobile: true,
-          //      votes: 12450,
-          //      
-          //    },
+         
       // {
       //       id: "WinKingdom",
       //       name: "WinKingdom",
