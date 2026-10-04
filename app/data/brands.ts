@@ -34,17 +34,27 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  {
-    id: "SpinReelz",
-     name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-     url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-     isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinReelz",
+  //    name: "SpinReelz",
+  //   logo: "/brands/spinreelz.svg",
+  //   rating: 9.8,
+  //   bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+  //    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+  //    isMobile: true,
+  //   votes: 12450,
     
-   },
+  //  },
+  {
+        id: "PikeCasino",
+        name: "PikeCasino",
+        logo: "/brands/pikecasino.svg",
+        rating: 9.9,
+        bonus: "200% + 400 TOURS GRATUITS",
+        url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR35&clickid=",
+        isMobile: true,
+        votes: 12450,
+      },
     {
        id: "GoldenPlay",
        name: "GoldenPlay",
@@ -55,16 +65,16 @@ export const brands: Brand[] = [
        isMobile: true,
        votes: 12450,
        },
-       {
-            id: "PikeCasino",
-            name: "PikeCasino",
-            logo: "/brands/pikecasino.svg",
-            rating: 9.9,
-            bonus: "200% + 400 TOURS GRATUITS",
-            url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR35&clickid=",
-            isMobile: true,
-            votes: 12450,
-          },
+         {
+       id: "LuckyGem",
+       name: "LuckyGem",
+       logo: "/brands/lucky.svg",
+        rating: 9.9,
+       bonus: "700% + 700 TOURS GRATUITS",
+       url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
+       isMobile: true,
+       votes: 12450,
+      },
    
   {
     id: "SpinFormula",
@@ -107,16 +117,7 @@ export const brands: Brand[] = [
   
  
 
-  //  {
-  //      id: "LuckyGem",
-  //      name: "LuckyGem",
-  //      logo: "/brands/lucky.svg",
-  //       rating: 9.9,
-  //      bonus: "700% + 700 TOURS GRATUITS",
-  //      url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
-  //      isMobile: true,
-  //      votes: 12450,
-  //     },
+
     
 
    //{
