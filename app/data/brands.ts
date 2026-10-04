@@ -21,28 +21,19 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  // {
-  //       id: "SpinMillion",
-  //       name: "SpinMillion",
-  //       logo: "/brands/spinmillion.png",
-  //       rating: 9.9,
-  //       bonus: "200% JUSQU'À 1000€ + 100 TOURS GRATUITS",
-  //       url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR35&aff_click_id=",
-  //       isMobile: true,
-  //       votes: 12450,
-  //     },
+
   
-  {
-    id: "Tower Casino",
-    name: "Tower Casino",
-    logo: "/brands/towercasino.png",
-    rating: 9.8,
-    bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
-    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR35&clickid=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "Tower Casino",
+  //   name: "Tower Casino",
+  //   logo: "/brands/towercasino.png",
+  //   rating: 9.8,
+  //   bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
+  //   url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR35&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   {
     id: "SpinReelz",
      name: "SpinReelz",
@@ -64,7 +55,16 @@ export const brands: Brand[] = [
        isMobile: true,
        votes: 12450,
        },
-   
+       {
+            id: "PikeCasino",
+            name: "PikeCasino",
+            logo: "/brands/pikecasino.svg",
+            rating: 9.9,
+            bonus: "200% + 400 TOURS GRATUITS",
+            url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR35&clickid=",
+            isMobile: true,
+            votes: 12450,
+          },
    
   {
     id: "SpinFormula",
