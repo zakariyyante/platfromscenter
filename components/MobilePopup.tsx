@@ -88,9 +88,11 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                     {[
                       { isFlag: true, text: 'France', color: 'bg-[#0a0a0f] border-[#ffd700] text-[#ffd700]' },
                       { type: 'icon', icon: 'bitcoin', text: 'Crypto Pay', color: 'bg-[#0a0a0f] border-orange-500/50 text-orange-400' },
-                      { type: 'icon', icon: 'bank', text: 'Virement', color: 'bg-[#0a0a0f] border-emerald-500/50 text-emerald-400' },
+                      { type: 'icon', icon: 'bank', text: 'Virement', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
+                      { type: 'icon', icon: 'apple', text: 'Apple Pay', color: 'bg-[#0a0a0f] border-white/30 text-white' },
+                      { type: 'icon', icon: 'google', text: 'Google Pay', color: 'bg-[#0a0a0f] border-blue-400/50 text-blue-400' },
                       { type: 'icon', icon: 'shield', text: 'Retraits Rapides', color: 'bg-[#0a0a0f] border-emerald-800/50 text-emerald-400' },
-                      { type: 'icon', icon: 'lock', text: 'Sécurité SSL', color: 'bg-[#0a0a0f] border-emerald-500/50 text-emerald-400' },
+                      { type: 'icon', icon: 'lock', text: 'Sécurité SSL', color: 'bg-[#0a0a0f] border-cyan-500/50 text-cyan-400' },
                       { icon: 'shield-exclamation', text: '18+', color: 'bg-[#0a0a0f] border-red-900/50 text-red-500' },
                       { icon: 'badge-check', text: 'Licence ANJ', color: 'bg-[#0a0a0f] border-[#b8860b]/30 text-[#ffd700]' },
                       { type: 'icon', icon: 'support', text: 'Support 24/7', color: 'bg-[#0a0a0f] border-slate-800 text-slate-400' }
@@ -114,6 +116,16 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                         {badge.type === 'icon' && badge.icon === 'bank' && (
                           <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M3 21h18M3 10h18M5 10v11M19 10v11M12 10v11M7 10v11M17 10v11M12 3L2 10h20L12 3z"/>
+                          </svg>
+                        )}
+                        {badge.type === 'icon' && badge.icon === 'apple' && (
+                          <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.057 10.774c-.015-2.22 1.815-3.284 1.89-3.333-1.03-1.505-2.626-1.711-3.193-1.737-1.357-.137-2.646.802-3.335.802-.687 0-1.74-.775-2.883-.75-1.501.022-2.884.873-3.657 2.215-1.563 2.716-.399 6.729 1.116 9.17.74 1.066 1.616 2.263 2.766 2.222 1.109-.044 1.528-.718 2.871-.718 1.34 0 1.722.718 2.894.695 1.21-.023 1.96-1.077 2.7-2.17.854-1.246 1.206-2.453 1.226-2.515-.026-.011-2.355-.905-2.379-3.601M14.935 5.215c.61-1.34 1.436-3.2 1.054-4.215-1.12.046-2.483.746-3.284 1.684-.717.838-1.344 2.137-1.173 3.424 1.25.097 2.493-.653 3.403-1.693"/>
+                          </svg>
+                        )}
+                        {badge.type === 'icon' && badge.icon === 'google' && (
+                          <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm.01 10.638V8.47H6.536v7.06s1.258 1.342 5.474 1.342c4.215 0 5.556-2.49 5.556-4.526 0-2.036-1.04-3.555-2.731-4.053l-.223.593c1.008.318 1.838 1.177 1.838 2.775 0 1.597-1.084 3.328-4.44 3.328-3.355 0-4.322-1.342-4.322-1.342v-2.012h4.322z"/>
                           </svg>
                         )}
                         {badge.type === 'icon' && badge.icon === 'lock' && (

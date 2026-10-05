@@ -1,0 +1,36 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lambaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef08a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#eab308;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headlightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#eab308;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fde047;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#eab308;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Left Headlight Assembly -->
+  <path d="M10 20 L40 20 L35 50 L5 50 Z" fill="url(#headlightGrad)" stroke="#fde047" stroke-width="1" />
+  <rect x="15" y="55" width="10" height="8" fill="white" rx="1" />
+  <rect x="28" y="55" width="10" height="8" fill="white" rx="1" />
+  
+  <!-- Right Headlight Assembly (Mirrored) -->
+  <path d="M190 20 L160 20 L165 50 L195 50 Z" fill="url(#headlightGrad)" stroke="#fde047" stroke-width="1" />
+  <rect x="175" y="55" width="10" height="8" fill="white" rx="1" />
+  <rect x="162" y="55" width="10" height="8" fill="white" rx="1" />
+
+  <!-- LAMBA text -->
+  <text x="50%" y="40" font-family="sans-serif" font-weight="900" font-style="italic" font-size="32" fill="url(#lambaGrad)" text-anchor="middle" letter-spacing="-1">LAMBA</text>
+  
+  <!-- BET text with brush-style feel -->
+  <text x="50%" y="65" font-family="cursive" font-weight="bold" font-size="28" fill="white" text-anchor="middle">
+    BET
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+  </text>
+  
+  <!-- Speed lines for BET -->
+  <path d="M60 60 L40 60 M65 65 L45 65" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+  <path d="M140 60 L160 60 M135 65 L155 65" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+</svg>
