@@ -157,17 +157,27 @@ export const brands: Brand[] = [
     //            isMobile: true,
     //            votes: 12450,
     //          },
-     // {
-     //       id: "Kingia",
-     //       name: "Kingia",
-     //       logo: "/brands/kingia.webp",
-      //      rating: 9.9,
-     //       bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
-     //       url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
-     //       isMobile: true,
-     //       votes: 12450,
-      //    },
-
+     {
+           id: "Kingia",
+           name: "Kingia",
+           logo: "/brands/kingia.webp",
+           rating: 9.9,
+           bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
+           url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+           isMobile: true,
+           votes: 12450,
+         },
+  {
+    id: "BetNJet",
+    name: "BetNJet",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+   }, 
   
  
 
