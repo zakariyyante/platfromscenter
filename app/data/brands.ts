@@ -260,7 +260,7 @@ export const brands: Brand[] = [
       name: "SpinKong",
       logo: "/brands/Spinkong.webp",
       rating: 9.9,
-      bonus: "400% JUSQU'À 1000€ + 250TG",
+      bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
       url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
       isMobile: true,
       votes: 12450,
