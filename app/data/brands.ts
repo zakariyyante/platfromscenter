@@ -171,7 +171,7 @@ export const brands: Brand[] = [
   {
     id: "BetNJet",
     name: "BetNJet",
-    logo: "/brands/Spinformula.svg",
+    logo: "/brands/betnjet.webp",
     rating: 9.8,
     bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
     url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR35&visit_id=",
