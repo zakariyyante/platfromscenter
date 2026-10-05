@@ -175,16 +175,16 @@ export const brands: Brand[] = [
       //     votes: 12450,
         
      // },
-      {
-              id: "VegasNova",
-               name: "VegasNova",
-          logo: "/brands/vegasnova.webp",
-               rating: 9.9,
-          bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
-              url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
-              isMobile: true,
-              votes: 12450,
-           },
+      // {
+      //         id: "VegasNova",
+      //          name: "VegasNova",
+      //     logo: "/brands/vegasnova.webp",
+      //          rating: 9.9,
+      //     bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
+      //         url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
+      //         isMobile: true,
+      //         votes: 12450,
+      //      },
     // {
      //  id: "GambleGorilla",
       //  name: "GambleGorilla",
@@ -251,17 +251,17 @@ export const brands: Brand[] = [
 //     votes: 12450,
 //   },
 
-   
-//   {
-//       id: "RoyalDogs",
-//       name: "RoyalDogs",
-//       logo: "/brands/royal.webp",
-//       rating: 9.9,
-//       bonus: "250% JUSQU'À 2500€",
-//       url: "https://hawkaffiliates.cxclick.com/visit/?bta=35110&nci=5358&utm_campaign=RoyalDogs-SL2FR35&afp=",
-//       isMobile: true,
-//       votes: 12450,
-//   },
+  //!!!DANGER ZONE!!!
+  {
+      id: "SpinKong",
+      name: "SpinKong",
+      logo: "/brands/Spinkong.webp",
+      rating: 9.9,
+      bonus: "400% JUSQU'À 1000€ + 250TG",
+      url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
+      isMobile: true,
+      votes: 12450,
+  },
   
   {
     id: "bwin-fr",
