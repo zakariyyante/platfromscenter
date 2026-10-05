@@ -62,41 +62,39 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
 
     return (
       <div 
-        className="bg-[#060c08] border border-[#b8860b]/40 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(184,134,11,0.35)] active:shadow-[0_0_50px_rgba(184,134,11,0.6)] transition-all duration-500"
+        className={`${rank === 1 ? 'p-6 pt-10 shadow-[0_0_40px_rgba(184,134,11,0.5)] border-[#ffd700]/60 scale-[1.02]' : 'p-4 pt-8 shadow-[0_0_30px_rgba(184,134,11,0.35)] border-[#b8860b]/40'} bg-[#060c08] border rounded-[1.2rem] relative group active:shadow-[0_0_50px_rgba(184,134,11,0.6)] transition-all duration-500`}
         onClick={handleCardClick}
       >
-        <div className="absolute inset-0 bg-[#b8860b]/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity" />
+        <div className={`absolute inset-0 ${rank === 1 ? 'bg-[#b8860b]/10' : 'bg-[#b8860b]/5'} rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity`} />
         {label && (
           <div className={`absolute -top-3 left-4 px-3 py-1 rounded-full ${label.color} text-white text-[8px] font-black uppercase tracking-[0.1em] shadow-[0_4px_10px_rgba(0,0,0,0.5)] z-10 border border-white/10 flex items-center justify-center`}>
             {label.text}
           </div>
         )}
 
-        <div className="flex justify-between items-start mb-6 gap-4 h-16">
-          <div className="relative h-full flex-1 flex items-center justify-start bg-white/5 rounded-xl border border-white/10 p-2 shadow-inner group-hover:bg-white/[0.08] transition-colors overflow-hidden">
-            <div className="relative w-full h-full">
-              <Image 
-                src={brand.logo} 
-                alt={`${brand.name} logo`} 
-                fill 
-                className="object-contain object-left scale-110 group-hover:scale-125 transition-transform duration-500" 
-                priority={priority}
-              />
-            </div>
+        <div className="flex justify-between items-start mb-6 gap-4">
+          <div className={`relative ${rank === 1 ? 'w-44 h-16' : 'w-36 h-14'} shrink-0`}>
+            <Image 
+              src={brand.logo} 
+              alt={`${brand.name} logo`} 
+              fill 
+              className="object-contain object-left" 
+              priority={priority}
+            />
           </div>
-          <div className="flex flex-col items-end text-right flex-1 pt-1 h-full justify-between">
-            <h3 className="text-sm font-black text-white uppercase tracking-tight leading-tight">
+          <div className="flex flex-col items-end text-right flex-1 pt-1">
+            <h3 className={`${rank === 1 ? 'text-base' : 'text-sm'} font-black text-white uppercase tracking-tight leading-tight mb-3`}>
               {formatBonus(brand.bonus)}
             </h3>
             <div className="flex flex-col items-end">
-              <div className="flex gap-1 mb-0.5">
+              <div className="flex gap-1 mb-1">
                 {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-3.5 h-3.5 text-[#ffd700] drop-shadow-[0_0_5px_rgba(255,215,0,0.4)]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg key={i} className={`${rank === 1 ? 'w-4 h-4' : 'w-3.5 h-3.5'} text-[#ffd700] drop-shadow-[0_0_5px_rgba(255,215,0,0.4)]`} fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
               </div>
-              <span className="text-[9px] font-bold text-gray-500 uppercase tracking-tighter">
+              <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tighter">
                 {(9.9 - ((rank || 1) - 1) * 0.1).toFixed(1)} <span className="text-gray-700">/ 10</span>
               </span>
             </div>
@@ -104,7 +102,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
         </div>
 
         <button 
-          className="w-full py-4 rounded-xl bg-linear-to-r from-[#ffd700] via-[#facc15] to-[#b8860b] text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(255,215,0,0.3)] active:scale-95 transition-all"
+          className={`w-full ${rank === 1 ? 'py-5 text-sm' : 'py-4 text-xs'} rounded-xl bg-linear-to-r from-[#ffd700] via-[#facc15] to-[#b8860b] text-black font-black uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(255,215,0,0.3)] active:scale-95 transition-all`}
           onClick={(e) => {
             e.stopPropagation();
             handleCardClick();
@@ -113,6 +111,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
           Jouer sur {brand.name}
         </button>
       </div>
+    );
     );
   }
 
@@ -123,16 +122,14 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
       onClick={handleCardClick}
     >
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-8">
-        <div className="flex flex-col items-center md:items-start w-full md:w-auto">
-          <div className="relative w-full md:w-48 h-28 mb-4 flex items-center justify-center bg-white/5 rounded-2xl border border-white/10 p-6 shadow-inner group-hover:bg-white/[0.08] transition-colors overflow-hidden">
-            <div className="relative w-full h-full">
-              <Image 
-                src={brand.logo} 
-                alt={`${brand.name} logo`} 
-                fill 
-                className="object-contain scale-110 group-hover:scale-125 transition-transform duration-500" 
-              />
-            </div>
+        <div className="flex flex-col items-center md:items-start">
+          <div className="relative w-32 h-16 mb-4">
+            <Image 
+              src={brand.logo} 
+              alt={`${brand.name} logo`} 
+              fill 
+              className="object-contain" 
+            />
           </div>
           <div className="flex items-center gap-2 mb-4">
             <div className="flex gap-0.5">
