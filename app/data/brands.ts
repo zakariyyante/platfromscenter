@@ -86,6 +86,17 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },   
+
+    {
+              id: "VegasNova",
+               name: "VegasNova",
+          logo: "/brands/vegasnova.webp",
+               rating: 9.9,
+          bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
+              url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
+              isMobile: true,
+              votes: 12450,
+           },
   //   {
   //      id: "GoldenPlay",
   //      name: "GoldenPlay",
@@ -175,16 +186,7 @@ export const brands: Brand[] = [
       //     votes: 12450,
         
      // },
-      // {
-      //         id: "VegasNova",
-      //          name: "VegasNova",
-      //     logo: "/brands/vegasnova.webp",
-      //          rating: 9.9,
-      //     bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
-      //         url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
-      //         isMobile: true,
-      //         votes: 12450,
-      //      },
+    
     // {
      //  id: "GambleGorilla",
       //  name: "GambleGorilla",
