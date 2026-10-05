@@ -58,7 +58,7 @@ export const brands: Brand[] = [
       {
     id: "LambaBet",
     name: "LambaBet",
-    logo: "/brands/lambabet.svg",
+    logo: "/brands/logo-2.pngg",
     rating: 9.9,
     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
     url: "https://gowinlamba.com/ttmync7tc?subid=LambaBet-SL2FR35&visit_id=",
