@@ -79,7 +79,7 @@ export const brands: Brand[] = [
       {
         id: "SpinTexas",
         name: "SpinTexas",
-        logo: "/brands/Spinformula.svg",
+        logo: "/brands/spintexas.svg",
         rating: 9.8,
         bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
         url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
