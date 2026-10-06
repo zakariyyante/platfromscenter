@@ -76,7 +76,18 @@ export const brands: Brand[] = [
   //     isMobile: true,
   //     votes: 12450,
   //     },
-
+ 
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+   },  
       {
             id: "Kingia",
             name: "Kingia",
@@ -98,17 +109,6 @@ export const brands: Brand[] = [
         votes: 12450,
      },
  
-  // {
-  //   id: "SpinFormula",
-  //   name: "SpinFormula",
-  //   logo: "/brands/Spinformula.svg",
-  //   rating: 9.8,
-  //   bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  //  },   
 
    
   //   {
