@@ -88,16 +88,16 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },  
-      {
-            id: "Kingia",
-            name: "Kingia",
-            logo: "/brands/kingia.webp",
-            rating: 9.9,
-            bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
-            url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
-            isMobile: true,
-            votes: 12450,
-          },
+      // {
+      //       id: "Kingia",
+      //       name: "Kingia",
+      //       logo: "/brands/kingia.webp",
+      //       rating: 9.9,
+      //       bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
+      //       url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+      //       isMobile: true,
+      //       votes: 12450,
+      //     },
   {
         id: "VegasNova",
          name: "VegasNova",
@@ -111,16 +111,16 @@ export const brands: Brand[] = [
  
 
    
-  //   {
-  //      id: "GoldenPlay",
-  //      name: "GoldenPlay",
-  //      logo: "/brands/goldenplay.svg",
-  //      rating: 9.9,
-  //      bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
-  //      url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
-  //      isMobile: true,
-  //      votes: 12450,
-  //      },
+    {
+       id: "GoldenPlay",
+       name: "GoldenPlay",
+       logo: "/brands/goldenplay.svg",
+       rating: 9.9,
+       bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
+       url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
+       isMobile: true,
+       votes: 12450,
+       },
         // {
   //      id: "WinBeast",
   //       name: "WinBeast",
