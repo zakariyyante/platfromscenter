@@ -66,7 +66,17 @@ export const brands: Brand[] = [
 //     isMobile: true,
 //     votes: 12450,
 //   },
-
+{
+  id: "SpinFormula",
+  name: "SpinFormula",
+  logo: "/brands/Spinformula.svg",
+  rating: 9.8,
+  bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+  url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+  isMobile: true,
+  votes: 12450,
+  
+ },
    {
       id: "WinHero",
       name: "WinHero",
@@ -77,28 +87,18 @@ export const brands: Brand[] = [
       isMobile: true,
       votes: 12450,
       },
+      
       {
-        id: "SpinFormula",
-        name: "SpinFormula",
-        logo: "/brands/Spinformula.svg",
+        id: "SpinTexas",
+        name: "SpinTexas",
+        logo: "/brands/spintexas.svg",
         rating: 9.8,
-        bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-        url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+        bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+        url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
         isMobile: true,
         votes: 12450,
         
        }, 
-      // {
-      //   id: "SpinTexas",
-      //   name: "SpinTexas",
-      //   logo: "/brands/spintexas.svg",
-      //   rating: 9.8,
-      //   bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
-      //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
-      //   isMobile: true,
-      //   votes: 12450,
-        
-      //  }, 
       //  {
       //   id: "EvoBet",
       //   name: "EvoBet",
@@ -111,16 +111,16 @@ export const brands: Brand[] = [
         
       //  }, 
        
-      {
-            id: "Kingia",
-            name: "Kingia",
-            logo: "/brands/kingia.webp",
-            rating: 9.9,
-            bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
-            url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
-            isMobile: true,
-            votes: 12450,
-          },
+      // {
+      //       id: "Kingia",
+      //       name: "Kingia",
+      //       logo: "/brands/kingia.webp",
+      //       rating: 9.9,
+      //       bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
+      //       url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+      //       isMobile: true,
+      //       votes: 12450,
+      //     },
 //   {
 //         id: "VegasNova",
 //          name: "VegasNova",
