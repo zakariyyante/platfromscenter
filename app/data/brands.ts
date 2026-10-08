@@ -23,17 +23,17 @@ export const brands: Brand[] = [
   // },
 
   
-  // {
-  //   id: "Tower Casino",
-  //   name: "Tower Casino",
-  //   logo: "/brands/towercasino.png",
-  //   rating: 9.8,
-  //   bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
-  //   url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR35&clickid=",
-  //   isMobile: true,
-  //   votes: 12450,
+   {
+     id: "Tower Casino",
+     name: "Tower Casino",
+     logo: "/brands/towercasino.png",
+     rating: 9.8,
+     bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
+     url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
+    isMobile: true,
+     votes: 12450,
     
-  // },
+   },
 
   // {
   //       id: "PikeCasino",
@@ -77,17 +77,17 @@ export const brands: Brand[] = [
   votes: 12450,
   
  },
-    {
-    id: "SpinReelz",
-     name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-     url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-     isMobile: true,
-    votes: 12450,
+  //  {
+  //  id: "SpinReelz",
+   //  name: "SpinReelz",
+  //  logo: "/brands/spinreelz.svg",
+  //  rating: 9.8,
+  //  bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+  //   url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+  //   isMobile: true,
+  //  votes: 12450,
     
-   },
+  // },
       
       // {
       //   id: "SpinTexas",
