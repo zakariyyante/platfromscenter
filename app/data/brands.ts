@@ -34,17 +34,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  // {
-  //   id: "SpinReelz",
-  //    name: "SpinReelz",
-  //   logo: "/brands/spinreelz.svg",
-  //   rating: 9.8,
-  //   bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-  //    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-  //    isMobile: true,
-  //   votes: 12450,
-    
-  //  },
+
   // {
   //       id: "PikeCasino",
   //       name: "PikeCasino",
@@ -67,6 +57,16 @@ export const brands: Brand[] = [
 //     votes: 12450,
 //   },
 {
+    id: "WinHero",
+    name: "WinHero",
+    logo: "/brands/winhero1.png",
+    rating: 9.9,
+    bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    },
+{
   id: "SpinFormula",
   name: "SpinFormula",
   logo: "/brands/Spinformula.svg",
@@ -77,28 +77,29 @@ export const brands: Brand[] = [
   votes: 12450,
   
  },
-   {
-      id: "WinHero",
-      name: "WinHero",
-      logo: "/brands/winhero1.png",
-      rating: 9.9,
-      bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-      url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-      isMobile: true,
-      votes: 12450,
-      },
+    {
+    id: "SpinReelz",
+     name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+     url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+     isMobile: true,
+    votes: 12450,
+    
+   },
       
-      {
-        id: "SpinTexas",
-        name: "SpinTexas",
-        logo: "/brands/spintexas.svg",
-        rating: 9.8,
-        bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
-        url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
+      // {
+      //   id: "SpinTexas",
+      //   name: "SpinTexas",
+      //   logo: "/brands/spintexas.svg",
+      //   rating: 9.8,
+      //   bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+      //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
+      //   isMobile: true,
+      //   votes: 12450,
         
-       }, 
+      //  }, 
       //  {
       //   id: "EvoBet",
       //   name: "EvoBet",
@@ -134,16 +135,16 @@ export const brands: Brand[] = [
  
 
    
-    {
-       id: "GoldenPlay",
-       name: "GoldenPlay",
-       logo: "/brands/goldenplay.svg",
-       rating: 9.9,
-       bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
-       url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
-       isMobile: true,
-       votes: 12450,
-       },
+  //   {
+  //      id: "GoldenPlay",
+  //      name: "GoldenPlay",
+  //      logo: "/brands/goldenplay.svg",
+  //      rating: 9.9,
+  //      bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
+  //      url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
+  //      isMobile: true,
+  //      votes: 12450,
+  //      },
         // {
   //      id: "WinBeast",
   //       name: "WinBeast",
