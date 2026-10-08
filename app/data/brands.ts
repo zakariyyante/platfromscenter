@@ -70,7 +70,7 @@ export const brands: Brand[] = [
   {
    id: "MamaBet",
     name: "MamaBet",
-   logo: "/brands/mamabet.pngg",
+   logo: "/brands/mamabet.png",
    rating: 9.8,
    bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
     url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
