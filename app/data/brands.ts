@@ -22,6 +22,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
   {
+    id: "MamaBet",
+     name: "MamaBet",
+    logo: "/brands/mamabet.png",
+    rating: 9.8,
+    bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
+     url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
+     isMobile: true,
+    votes: 12450,
+     
+   },
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -67,17 +78,7 @@ export const brands: Brand[] = [
 //     votes: 12450,
 //   },
 
-  {
-   id: "MamaBet",
-    name: "MamaBet",
-   logo: "/brands/mamabet.png",
-   rating: 9.8,
-   bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
-    url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
-    isMobile: true,
-   votes: 12450,
-    
-  },
+ 
 // {
 //     id: "WinHero",
 //     name: "WinHero",
@@ -178,16 +179,16 @@ export const brands: Brand[] = [
   //              votes: 12450,
                
   //            },
-  //        {
-  //      id: "LuckyGem",
-  //      name: "LuckyGem",
-  //      logo: "/brands/lucky.svg",
-  //       rating: 9.9,
-  //      bonus: "700% + 700 TOURS GRATUITS",
-  //      url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
-  //      isMobile: true,
-  //      votes: 12450,
-  //     },
+         {
+       id: "LuckyGem",
+       name: "LuckyGem",
+       logo: "/brands/lucky.svg",
+        rating: 9.9,
+       bonus: "700% + 700 TOURS GRATUITS",
+       url: "https://bestcpa.online/click?o=440&a=75&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
+       isMobile: true,
+       votes: 12450,
+      },
    
  
   
