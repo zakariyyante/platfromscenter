@@ -57,16 +57,6 @@ export const brands: Brand[] = [
 //     votes: 12450,
 //   },
 {
-    id: "WinHero",
-    name: "WinHero",
-    logo: "/brands/winhero1.png",
-    rating: 9.9,
-    bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    },
-{
   id: "SpinFormula",
   name: "SpinFormula",
   logo: "/brands/Spinformula.svg",
@@ -77,6 +67,28 @@ export const brands: Brand[] = [
   votes: 12450,
   
  },
+  {
+   id: "MamaBet",
+    name: "MamaBet",
+   logo: "/brands/mamabet.pngg",
+   rating: 9.8,
+   bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
+    url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
+    isMobile: true,
+   votes: 12450,
+    
+  },
+// {
+//     id: "WinHero",
+//     name: "WinHero",
+//     logo: "/brands/winhero1.png",
+//     rating: 9.9,
+//     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+//     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+//     isMobile: true,
+//     votes: 12450,
+//     },
+
   //  {
   //  id: "SpinReelz",
    //  name: "SpinReelz",
