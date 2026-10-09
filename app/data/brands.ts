@@ -46,16 +46,16 @@ export const brands: Brand[] = [
  
 
   
-    {
-        id: "BinoBet",
-         name: "BinoBet",
-    logo: "/brands/binobet.png",
-         rating: 9.9,
-    bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
-        url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
-        isMobile: true,
-        votes: 12450,
-     },
+//     {
+//         id: "BinoBet",
+//          name: "BinoBet",
+//     logo: "/brands/binobet.png",
+//          rating: 9.9,
+//     bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
+//         url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
+//         isMobile: true,
+//         votes: 12450,
+//      },
   //  {
   //    id: "Tower Casino",
   //    name: "Tower Casino",
@@ -318,17 +318,17 @@ export const brands: Brand[] = [
 //   },
 
   //!!!DANGER ZONE!!!
-  {
-       id: "GoloBet",
-       name: "GoloBet",
-       logo: "/brands/golobet.webp",
-       rating: 9.8,
-       bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
-       url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
-      isMobile: true,
-       votes: 12450,
+  // {
+  //      id: "GoloBet",
+  //      name: "GoloBet",
+  //      logo: "/brands/golobet.webp",
+  //      rating: 9.8,
+  //      bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
+  //      url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
+  //     isMobile: true,
+  //      votes: 12450,
       
-     }, 
+  //    }, 
   {
       id: "SpinKong",
       name: "SpinKong",
