@@ -47,7 +47,7 @@ export const brands: Brand[] = [
     {
         id: "BinoBet",
          name: "BinoBet",
-    logo: "/brands/bino.png",
+    logo: "/brands/binobet.png",
          rating: 9.9,
     bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
         url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
