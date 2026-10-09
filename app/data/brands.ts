@@ -54,17 +54,17 @@ export const brands: Brand[] = [
         isMobile: true,
         votes: 12450,
      },
-   {
-     id: "Tower Casino",
-     name: "Tower Casino",
-     logo: "/brands/towercasino.png",
-     rating: 9.8,
-     bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
-     url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
-    isMobile: true,
-     votes: 12450,
+  //  {
+  //    id: "Tower Casino",
+  //    name: "Tower Casino",
+  //    logo: "/brands/towercasino.png",
+  //    rating: 9.8,
+  //    bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
+  //    url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
+  //   isMobile: true,
+  //    votes: 12450,
     
-   },
+  //  },
 
   // {
   //       id: "PikeCasino",
@@ -316,6 +316,17 @@ export const brands: Brand[] = [
 //   },
 
   //!!!DANGER ZONE!!!
+  {
+       id: "GoloBet",
+       name: "GoloBet",
+       logo: "/brands/golobet.webp",
+       rating: 9.8,
+       bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
+       url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
+      isMobile: false,
+       votes: 12450,
+      
+     }, 
   {
       id: "SpinKong",
       name: "SpinKong",
