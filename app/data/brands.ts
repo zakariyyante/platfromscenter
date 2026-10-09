@@ -323,7 +323,7 @@ export const brands: Brand[] = [
        rating: 9.8,
        bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
        url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
-      isMobile: false,
+      isMobile: true,
        votes: 12450,
       
      }, 
