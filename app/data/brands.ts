@@ -22,17 +22,6 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-   },
-  {
     id: "MamaBet",
      name: "MamaBet",
     logo: "/brands/mamabet.png",
@@ -43,19 +32,41 @@ export const brands: Brand[] = [
     votes: 12450,
      
    },
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+   },
+  // {
+  //   id: "MamaBet",
+  //    name: "MamaBet",
+  //   logo: "/brands/mamabet.png",
+  //   rating: 9.8,
+  //   bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
+  //    url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
+  //    isMobile: true,
+  //   votes: 12450,
+     
+  //  },
  
 
   
-//     {
-//         id: "BinoBet",
-//          name: "BinoBet",
-//     logo: "/brands/binobet.png",
-//          rating: 9.9,
-//     bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
-//         url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
-//         isMobile: true,
-//         votes: 12450,
-//      },
+    {
+        id: "BinoBet",
+         name: "BinoBet",
+    logo: "/brands/binobet.png",
+         rating: 9.9,
+    bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
+        url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
+        isMobile: true,
+        votes: 12450,
+     },
    {
      id: "Tower Casino",
      name: "Tower Casino",
