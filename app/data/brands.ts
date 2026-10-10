@@ -338,7 +338,8 @@ export const brands: Brand[] = [
    isMobile: true,
     votes: 12450,
    
-  }, 
+  },  
+   
   // {
   //   id: "BelloCasino",
   //   name: "BelloCasino",
