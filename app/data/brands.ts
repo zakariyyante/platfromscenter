@@ -331,7 +331,7 @@ export const brands: Brand[] = [
   {
     id: "LunaLoots",
     name: "LunaLoots",
-    logo: "/brands/lunalooots.svg",
+    logo: "/brands/lunaloots.svg",
     rating: 9.8,
     bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
     url: "https://bestcpa.online/click?o=693&a=75&sub_id1=LunaLoots-SL2FR35&aff_click_id=",
