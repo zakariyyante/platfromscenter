@@ -53,30 +53,19 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-  // {
-  //   id: "MamaBet",
-  //    name: "MamaBet",
-  //   logo: "/brands/mamabet.png",
-  //   rating: 9.8,
-  //   bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
-  //    url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
-  //    isMobile: true,
-  //   votes: 12450,
-     
-  //  },
  
  
   
-    {
-        id: "BinoBet",
-         name: "BinoBet",
-    logo: "/brands/binobet.png",
-         rating: 9.9,
-    bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
-        url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
-        isMobile: true,
-        votes: 12450,
-     },
+//     {
+//         id: "BinoBet",
+//          name: "BinoBet",
+//     logo: "/brands/binobet.png",
+//          rating: 9.9,
+//     bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
+//         url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
+//         isMobile: true,
+//         votes: 12450,
+//      },
   //  {
   //    id: "Tower Casino",
   //    name: "Tower Casino",
@@ -340,16 +329,27 @@ export const brands: Brand[] = [
 
   //!!!DANGER ZONE!!!
   {
-    id: "BelloCasino",
-    name: "BelloCasino",
-    logo: "/brands/bello.webp",
+    id: "LunaLoots",
+    name: "LunaLoots",
+    logo: "/brands/lunalooots.svg",
     rating: 9.8,
-    bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
-    url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
+    bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
+    url: "https://bestcpa.online/click?o=693&a=75&sub_id1=LunaLoots-SL2FR35&aff_click_id=",
    isMobile: true,
     votes: 12450,
    
   }, 
+  // {
+  //   id: "BelloCasino",
+  //   name: "BelloCasino",
+  //   logo: "/brands/bello.webp",
+  //   rating: 9.8,
+  //   bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
+  //  isMobile: true,
+  //   votes: 12450,
+   
+  // }, 
   // {
   //      id: "GoloBet",
   //      name: "GoloBet",
