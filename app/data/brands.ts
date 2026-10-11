@@ -42,17 +42,28 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-  {
-    id: "MamaBet",
-     name: "MamaBet",
-    logo: "/brands/mamabet.png",
+   {
+    id: "LunaLoots",
+    name: "LunaLoots",
+    logo: "/brands/lunaloots.svg",
     rating: 9.8,
-    bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
-     url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
-     isMobile: true,
+    bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
+    url: "https://bestcpa.online/click?o=693&a=36&sub_id1=LunaLoots-SL2FR35&aff_click_id=",
+    isMobile: true,
     votes: 12450,
-     
+    
    },
+  //{
+  //  id: "MamaBet",
+   //  name: "MamaBet",
+   // logo: "/brands/mamabet.png",
+    //rating: 9.8,
+   //bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
+   //  url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
+   //  isMobile: true,
+   // votes: 12450,
+     
+  //},
   
  
  
