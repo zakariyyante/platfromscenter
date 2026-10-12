@@ -31,6 +31,17 @@ export const brands: Brand[] = [
   //      isMobile: true,
   //      votes: 12450,
   //  },
+{
+    id: "WinHero",
+    name: "WinHero",
+    logo: "/brands/winhero1.png",
+    rating: 9.9,
+    bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    },
+
    {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -68,16 +79,7 @@ export const brands: Brand[] = [
  
  
   
-    {
-        id: "BinoBet",
-         name: "BinoBet",
-    logo: "/brands/binobet.png",
-         rating: 9.9,
-    bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
-        url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
-        isMobile: true,
-        votes: 12450,
-     },
+    
    {
      id: "Tower Casino",
      name: "Tower Casino",
@@ -89,7 +91,16 @@ export const brands: Brand[] = [
      votes: 12450,
     
    },
-
+   {
+        id: "BinoBet",
+         name: "BinoBet",
+    logo: "/brands/binobet.png",
+         rating: 9.9,
+    bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
+        url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
+        isMobile: true,
+        votes: 12450,
+     },
   // {
   //       id: "PikeCasino",
   //       name: "PikeCasino",
@@ -113,16 +124,7 @@ export const brands: Brand[] = [
 //   },
 
  
-// {
-//     id: "WinHero",
-//     name: "WinHero",
-//     logo: "/brands/winhero1.png",
-//     rating: 9.9,
-//     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-//     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-//     isMobile: true,
-//     votes: 12450,
-//     },
+
 
   //  {
   //  id: "SpinReelz",
