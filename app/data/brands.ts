@@ -31,6 +31,17 @@ export const brands: Brand[] = [
   //      isMobile: true,
   //      votes: 12450,
   //  },
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+   },
 {
     id: "WinHero",
     name: "WinHero",
@@ -42,17 +53,7 @@ export const brands: Brand[] = [
     votes: 12450,
     },
 
-   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-   },
+  
   //  {
   //   id: "LunaLoots",
   //   name: "LunaLoots",
@@ -91,16 +92,16 @@ export const brands: Brand[] = [
      votes: 12450,
     
    },
-   {
-        id: "BinoBet",
-         name: "BinoBet",
-    logo: "/brands/binobet.png",
-         rating: 9.9,
-    bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
-        url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
-        isMobile: true,
-        votes: 12450,
-     },
+//    {
+//         id: "BinoBet",
+//          name: "BinoBet",
+//     logo: "/brands/binobet.png",
+//          rating: 9.9,
+//     bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
+//         url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
+//         isMobile: true,
+//         votes: 12450,
+//      },
   // {
   //       id: "PikeCasino",
   //       name: "PikeCasino",
@@ -354,28 +355,28 @@ export const brands: Brand[] = [
    
   // },  
    
-  {
-    id: "BelloCasino",
-    name: "BelloCasino",
-    logo: "/brands/bello.webp",
-    rating: 9.8,
-    bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
-    url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
-   isMobile: true,
-    votes: 12450,
-   
-  }, 
   // {
-  //      id: "GoloBet",
-  //      name: "GoloBet",
-  //      logo: "/brands/golobet.webp",
-  //      rating: 9.8,
-  //      bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
-  //      url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
-  //     isMobile: true,
-  //      votes: 12450,
+  //   id: "BelloCasino",
+  //   name: "BelloCasino",
+  //   logo: "/brands/bello.webp",
+  //   rating: 9.8,
+  //   bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
+  //  isMobile: true,
+  //   votes: 12450,
+   
+  // }, 
+  {
+       id: "GoloBet",
+       name: "GoloBet",
+       logo: "/brands/golobet.webp",
+       rating: 9.8,
+       bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
+       url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
+      isMobile: true,
+       votes: 12450,
       
-  //    }, 
+     }, 
   // {
   //     id: "SpinKong",
   //     name: "SpinKong",
