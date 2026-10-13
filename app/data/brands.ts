@@ -31,17 +31,17 @@ export const brands: Brand[] = [
   //      isMobile: true,
   //      votes: 12450,
   //  },
-  // {
-  //   id: "MythosWin",
-  //   name: "MythosWin",
-  //   logo: "/brands/mythoswin.webp",
-  //   rating: 9.8,
-  //   bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
-  //   url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "MythosWin",
+    name: "MythosWin",
+    logo: "/brands/mythoswin.webp",
+    rating: 9.8,
+    bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
+    url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
     
-  //  },
+   },
 
   {
     id: "SpinFormula",
@@ -54,16 +54,16 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-{
-    id: "WinHero",
-    name: "WinHero",
-    logo: "/brands/winhero1.png",
-    rating: 9.9,
-    bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    },
+// {
+//     id: "WinHero",
+//     name: "WinHero",
+//     logo: "/brands/winhero1.png",
+//     rating: 9.9,
+//     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+//     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+//     isMobile: true,
+//     votes: 12450,
+//     },
 
   
   //  {
