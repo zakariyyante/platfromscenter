@@ -367,17 +367,17 @@ export const brands: Brand[] = [
    
   // },  
    
-  {
-    id: "BelloCasino",
-    name: "BelloCasino",
-    logo: "/brands/bello.webp",
-    rating: 9.8,
-    bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
-    url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
-   isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BelloCasino",
+  //   name: "BelloCasino",
+  //   logo: "/brands/bello.webp",
+  //   rating: 9.8,
+  //   bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
+  //  isMobile: true,
+  //   votes: 12450,
    
-  }, 
+  // }, 
   // {
   //      id: "GoloBet",
   //      name: "GoloBet",
@@ -389,16 +389,16 @@ export const brands: Brand[] = [
   //      votes: 12450,
       
   //    }, 
-  // {
-  //     id: "SpinKong",
-  //     name: "SpinKong",
-  //     logo: "/brands/Spinkong.webp",
-  //     rating: 9.9,
-  //     bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
-  //     url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
-  //     isMobile: true,
-  //     votes: 12450,
-  // },
+  {
+      id: "SpinKong",
+      name: "SpinKong",
+      logo: "/brands/Spinkong.webp",
+      rating: 9.9,
+      bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+      url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
+      isMobile: true,
+      votes: 12450,
+  },
   
   {
     id: "bwin-fr",
