@@ -32,6 +32,18 @@ export const brands: Brand[] = [
   //      votes: 12450,
   //  },
   {
+    id: "MythosWin",
+    name: "MythosWin",
+    logo: "/brands/mythoswin.webp",
+    rating: 9.8,
+    bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
+    url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+   },
+
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -65,33 +77,33 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   //  },
-  // {
-  //   id: "MamaBet",
-  //    name: "MamaBet",
-  //   logo: "/brands/mamabet.png",
-  //   rating: 9.8,
-  //   bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
-  //    url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
-  //    isMobile: true,
-  //   votes: 12450,
+  {
+    id: "MamaBet",
+     name: "MamaBet",
+    logo: "/brands/mamabet.png",
+    rating: 9.8,
+    bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
+     url: "https://bestcpa.online/click?o=698&a=36&sub_id1=MamaBet-SL2FR35&aff_click_id=",
+     isMobile: true,
+    votes: 12450,
      
-  //  },
+   },
 
  
  
   
     
-   {
-     id: "Tower Casino",
-     name: "Tower Casino",
-     logo: "/brands/towercasino.png",
-     rating: 9.8,
-     bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
-     url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
-    isMobile: true,
-     votes: 12450,
+  //  {
+  //    id: "Tower Casino",
+  //    name: "Tower Casino",
+  //    logo: "/brands/towercasino.png",
+  //    rating: 9.8,
+  //    bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
+  //    url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
+  //   isMobile: true,
+  //    votes: 12450,
     
-   },
+  //  },
 //    {
 //         id: "BinoBet",
 //          name: "BinoBet",
