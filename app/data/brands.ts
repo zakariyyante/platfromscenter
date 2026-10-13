@@ -367,28 +367,28 @@ export const brands: Brand[] = [
    
   // },  
    
-  // {
-  //   id: "BelloCasino",
-  //   name: "BelloCasino",
-  //   logo: "/brands/bello.webp",
-  //   rating: 9.8,
-  //   bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
-  //   url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
-  //  isMobile: true,
-  //   votes: 12450,
-   
-  // }, 
   {
-       id: "GoloBet",
-       name: "GoloBet",
-       logo: "/brands/golobet.webp",
-       rating: 9.8,
-       bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
-       url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
-      isMobile: true,
-       votes: 12450,
+    id: "BelloCasino",
+    name: "BelloCasino",
+    logo: "/brands/bello.webp",
+    rating: 9.8,
+    bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
+    url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
+   isMobile: true,
+    votes: 12450,
+   
+  }, 
+  // {
+  //      id: "GoloBet",
+  //      name: "GoloBet",
+  //      logo: "/brands/golobet.webp",
+  //      rating: 9.8,
+  //      bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
+  //      url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
+  //     isMobile: true,
+  //      votes: 12450,
       
-     }, 
+  //    }, 
   // {
   //     id: "SpinKong",
   //     name: "SpinKong",
