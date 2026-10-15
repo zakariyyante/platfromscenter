@@ -49,7 +49,7 @@ export const brands: Brand[] = [
            name: "Betportal",
                logo: "/brands/betportal.svg",
                rating: 9.9,
-               bonus: "300% JUSQU'À 1000 €/$ + 250 TOURS GRATUITS",
+               bonus: "300% JUSQU'À 1000€ + 250 TOURS GRATUITS",
                url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
                isMobile: true,
                votes: 12450,
