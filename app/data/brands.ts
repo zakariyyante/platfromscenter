@@ -44,6 +44,16 @@ export const brands: Brand[] = [
     votes: 12450,
    
   },
+   {
+          id: "Betportal",
+           name: "Betportal",
+               logo: "/brands/betportal.svg",
+               rating: 9.9,
+               bonus: "300% JUSQU'À 1000 €/$ + 250 TOURS GRATUITS",
+               url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
+               isMobile: true,
+               votes: 12450,
+             },
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -56,28 +66,28 @@ export const brands: Brand[] = [
     
    },
   
- {
-  id: "29Black",
-  name: "29Black",
-  logo: "/brands/29black.svg",
-  rating: 9.8,
-  bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
-  url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
-  isMobile: true,
-  votes: 12450,
+//  {
+//   id: "29Black",
+//   name: "29Black",
+//   logo: "/brands/29black.svg",
+//   rating: 9.8,
+//   bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
+//   url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
+//   isMobile: true,
+//   votes: 12450,
   
- },
+//  },
   
-// {
-//     id: "WinHero",
-//     name: "WinHero",
-//     logo: "/brands/winhero1.png",
-//     rating: 9.9,
-//     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-//     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-//     isMobile: true,
-//     votes: 12450,
-//     },
+{
+    id: "WinHero",
+    name: "WinHero",
+    logo: "/brands/winhero1.png",
+    rating: 9.9,
+    bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    },
 
   
   //  {
@@ -91,17 +101,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   //  },
-  {
-    id: "MamaBet",
-     name: "MamaBet",
-    logo: "/brands/mamabet.png",
-    rating: 9.8,
-    bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
-     url: "https://bestcpa.online/click?o=698&a=36&sub_id1=MamaBet-SL2FR35&aff_click_id=",
-     isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "MamaBet",
+  //    name: "MamaBet",
+  //   logo: "/brands/mamabet.png",
+  //   rating: 9.8,
+  //   bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
+  //    url: "https://bestcpa.online/click?o=698&a=36&sub_id1=MamaBet-SL2FR35&aff_click_id=",
+  //    isMobile: true,
+  //   votes: 12450,
      
-   },
+  //  },
 
 //  {
 //     id: "MythosWin",
@@ -260,16 +270,7 @@ export const brands: Brand[] = [
   
   
  
-    // {
-    //       id: "Betportal",
-    //        name: "Betportal",
-    //            logo: "/brands/betportal.svg",
-    //            rating: 9.9,
-    //            bonus: "300% JUSQU'À 1000 €/$ + 250 TOURS GRATUITS",
-    //            url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
-    //            isMobile: true,
-    //            votes: 12450,
-    //          },
+   
      
   // {
   //   id: "BetNJet",
