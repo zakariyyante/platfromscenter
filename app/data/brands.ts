@@ -43,13 +43,24 @@ export const brands: Brand[] = [
     votes: 12450,
    
   },
+  // {
+  //   id: "MythosWin",
+  //   name: "MythosWin",
+  //   logo: "/brands/mythoswin.webp",
+  //   rating: 9.8,
+  //   bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
+  //   url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //  },
   {
-    id: "MythosWin",
-    name: "MythosWin",
-    logo: "/brands/mythoswin.webp",
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
     rating: 9.8,
-    bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
-    url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
     isMobile: true,
     votes: 12450,
     
@@ -64,17 +75,7 @@ export const brands: Brand[] = [
       isMobile: true,
       votes: 12450,
       },
-      {
-        id: "SpinFormula",
-        name: "SpinFormula",
-        logo: "/brands/Spinformula.svg",
-        rating: 9.8,
-        bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-        url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
-        
-       },
+      
   //  {
   //         id: "Betportal",
   //          name: "Betportal",
