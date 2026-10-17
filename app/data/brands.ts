@@ -56,16 +56,26 @@ export const brands: Brand[] = [
    
   },
   {
-    id: "SpinReelz",
-     name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-     url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-     isMobile: true,
-    votes: 12450,
+      id: "WinHero",
+      name: "WinHero",
+      logo: "/brands/winhero1.png",
+      rating: 9.9,
+      bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+      url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+      isMobile: true,
+      votes: 12450,
+      },
+  // {
+  //   id: "SpinReelz",
+  //    name: "SpinReelz",
+  //   logo: "/brands/spinreelz.svg",
+  //   rating: 9.8,
+  //   bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+  //    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+  //    isMobile: true,
+  //   votes: 12450,
      
-   },
+  //  },
  
   {
     id: "SpinFormula",
@@ -78,16 +88,7 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-   {
-      id: "WinHero",
-      name: "WinHero",
-      logo: "/brands/winhero1.png",
-      rating: 9.9,
-      bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-      url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-      isMobile: true,
-      votes: 12450,
-      },
+  
       
   //  {
   //         id: "Betportal",
