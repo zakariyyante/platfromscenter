@@ -55,6 +55,16 @@ export const brands: Brand[] = [
     
   //  },
   {
+      id: "WinHero",
+      name: "WinHero",
+      logo: "/brands/winhero1.png",
+      rating: 9.9,
+      bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+      url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+      isMobile: true,
+      votes: 12450,
+      },
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -65,16 +75,7 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-   {
-      id: "WinHero",
-      name: "WinHero",
-      logo: "/brands/winhero1.png",
-      rating: 9.9,
-      bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-      url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-      isMobile: true,
-      votes: 12450,
-      },
+  
       
   //  {
   //         id: "Betportal",
