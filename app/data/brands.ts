@@ -32,17 +32,17 @@ export const brands: Brand[] = [
   //      votes: 12450,
   //  },
 
-  {
-    id: "Tower Casino",
-    name: "Tower Casino",
-    logo: "/brands/towercasino.png",
-    rating: 9.8,
-    bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
-    url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
-   isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "Tower Casino",
+  //   name: "Tower Casino",
+  //   logo: "/brands/towercasino.png",
+  //   rating: 9.8,
+  //   bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
+  //   url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
+  //  isMobile: true,
+  //   votes: 12450,
    
-  },
+  // },
   // {
   //   id: "MythosWin",
   //   name: "MythosWin",
@@ -89,17 +89,7 @@ export const brands: Brand[] = [
   //            },
   
   
-//  {
-//   id: "29Black",
-//   name: "29Black",
-//   logo: "/brands/29black.svg",
-//   rating: 9.8,
-//   bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
-//   url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
-//   isMobile: true,
-//   votes: 12450,
-  
-//  },
+
   
 
 
@@ -178,6 +168,17 @@ export const brands: Brand[] = [
    votes: 12450,
     
   },
+   {
+  id: "29Black",
+  name: "29Black",
+  logo: "/brands/29black.svg",
+  rating: 9.8,
+  bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
+  url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
+  isMobile: true,
+  votes: 12450,
+  
+ },
       
       // {
       //   id: "SpinTexas",
