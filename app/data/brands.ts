@@ -46,6 +46,17 @@ export const brands: Brand[] = [
    
   // },
   {
+    id: "MythosWin",
+    name: "MythosWin",
+    logo: "/brands/mythoswin.webp",
+    rating: 9.8,
+    bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
+    url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+   },
+  {
       id: "WinHero",
       name: "WinHero",
       logo: "/brands/winhero1.png",
@@ -78,17 +89,7 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-    {
-    id: "MythosWin",
-    name: "MythosWin",
-    logo: "/brands/mythoswin.webp",
-    rating: 9.8,
-    bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
-    url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-   },
+  
       
   //  {
   //         id: "Betportal",
