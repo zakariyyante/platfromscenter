@@ -166,17 +166,17 @@ export const brands: Brand[] = [
  
 
 
-  //  {
-  //  id: "SpinReelz",
-   //  name: "SpinReelz",
-  //  logo: "/brands/spinreelz.svg",
-  //  rating: 9.8,
-  //  bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-  //   url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-  //   isMobile: true,
-  //  votes: 12450,
+   {
+   id: "SpinReelz",
+    name: "SpinReelz",
+   logo: "/brands/spinreelz.svg",
+   rating: 9.8,
+   bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+    isMobile: true,
+   votes: 12450,
     
-  // },
+  },
       
       // {
       //   id: "SpinTexas",
