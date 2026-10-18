@@ -46,16 +46,17 @@ export const brands: Brand[] = [
    
   // },
   {
-    id: "MythosWin",
-    name: "MythosWin",
-    logo: "/brands/mythoswin.webp",
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
     rating: 9.8,
-    bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
-    url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
     isMobile: true,
     votes: 12450,
     
    },
+ 
   {
       id: "WinHero",
       name: "WinHero",
@@ -78,18 +79,18 @@ export const brands: Brand[] = [
      
   //  },
  
+
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
+    id: "MythosWin",
+    name: "MythosWin",
+    logo: "/brands/mythoswin.webp",
     rating: 9.8,
-    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    bonus: "420% JUSQU'À 14000€ + 420 TOURS GRATUITS",
+    url: "https://track.corsa.partners/visit/?bta=35059&nci=5361&utm_campaign=MythosWin-SL2FR35&afp=",
     isMobile: true,
     votes: 12450,
     
    },
-  
       
   //  {
   //         id: "Betportal",
@@ -172,17 +173,17 @@ export const brands: Brand[] = [
 
 
   
-   {
-  id: "29Black",
-  name: "29Black",
-  logo: "/brands/29black.svg",
-  rating: 9.8,
-  bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
-  url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
-  isMobile: true,
-  votes: 12450,
+//    {
+//   id: "29Black",
+//   name: "29Black",
+//   logo: "/brands/29black.svg",
+//   rating: 9.8,
+//   bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
+//   url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
+//   isMobile: true,
+//   votes: 12450,
   
- },
+//  },
       
       // {
       //   id: "SpinTexas",
@@ -412,17 +413,17 @@ export const brands: Brand[] = [
   //     isMobile: true,
   //      votes: 12450,
       
-  //    }, 
-  // {
-  //     id: "SpinKong",
-  //     name: "SpinKong",
-  //     logo: "/brands/Spinkong.webp",
-  //     rating: 9.9,
-  //     bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
-  //     url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
-  //     isMobile: true,
-  //     votes: 12450,
-  // },
+  //   }, 
+  {
+      id: "SpinKong",
+      name: "SpinKong",
+      logo: "/brands/Spinkong.webp",
+      rating: 9.9,
+      bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+      url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
+      isMobile: true,
+      votes: 12450,
+  }, 
   
   {
     id: "bwin-fr",
