@@ -56,16 +56,16 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   //  },
-  {
-      id: "WinHero",
-      name: "WinHero",
-      logo: "/brands/winhero1.png",
-      rating: 9.9,
-      bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-      url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-      isMobile: true,
-      votes: 12450,
-      },
+  // {
+  //     id: "WinHero",
+  //     name: "WinHero",
+  //     logo: "/brands/winhero1.png",
+  //     rating: 9.9,
+  //     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+  //     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+  //     isMobile: true,
+  //     votes: 12450,
+  //     },
   // {
   //   id: "SpinReelz",
   //    name: "SpinReelz",
@@ -78,17 +78,17 @@ export const brands: Brand[] = [
      
   //  },
  
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-   },
+  //  },
   
       
   //  {
@@ -172,17 +172,17 @@ export const brands: Brand[] = [
 
 
   
-   {
-  id: "29Black",
-  name: "29Black",
-  logo: "/brands/29black.svg",
-  rating: 9.8,
-  bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
-  url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
-  isMobile: true,
-  votes: 12450,
+//    {
+//   id: "29Black",
+//   name: "29Black",
+//   logo: "/brands/29black.svg",
+//   rating: 9.8,
+//   bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
+//   url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
+//   isMobile: true,
+//   votes: 12450,
   
- },
+//  },
       
       // {
       //   id: "SpinTexas",
@@ -413,16 +413,16 @@ export const brands: Brand[] = [
   //      votes: 12450,
       
   //    }, 
-  {
-      id: "SpinKong",
-      name: "SpinKong",
-      logo: "/brands/Spinkong.webp",
-      rating: 9.9,
-      bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
-      url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
-      isMobile: true,
-      votes: 12450,
-  },
+  // {
+  //     id: "SpinKong",
+  //     name: "SpinKong",
+  //     logo: "/brands/Spinkong.webp",
+  //     rating: 9.9,
+  //     bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+  //     url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
+  //     isMobile: true,
+  //     votes: 12450,
+  // },
   
   {
     id: "bwin-fr",
@@ -434,6 +434,16 @@ export const brands: Brand[] = [
     isMobile: false,
     votes: 2556,
   },
+  {
+        id: "PMU",
+        name: "PMU",
+        logo: "/brands/pmu.avif",
+        rating: 9.6,
+        bonus: "JUSQU'À 100 € DE BONUS",
+        url: "https://www.pmu.fr/?gclid=",
+        votes: 12450,
+    isMobile: false,
+      }
   
 //   {
 //     id: "WinoCasino",
