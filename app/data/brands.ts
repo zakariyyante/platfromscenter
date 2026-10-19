@@ -56,17 +56,7 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-      {
-  id: "MusBet",
-  name: "MusBet",
-  logo: "/brands/mustber.png",
-  rating: 9.8,
-  bonus: "300% JUSQU'À 1000€ + 150 TOURS GRATUITS",
-  url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR35&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    
-   },
+  
   {
       id: "WinHero",
       name: "WinHero",
@@ -91,17 +81,17 @@ export const brands: Brand[] = [
     
    },
  
-   {
-    id: "TabooBet",
-     name: "TabooBet",
-    logo: "/brands/taboo.svg",
-    rating: 9.8,
-    bonus: "300% JUSQU'À + 300 TOURS GRATUITS",
-    url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR35&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
+  //  {
+  //   id: "TabooBet",
+  //    name: "TabooBet",
+  //   logo: "/brands/taboo.svg",
+  //   rating: 9.8,
+  //   bonus: "300% JUSQU'À + 300 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR35&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-   },
+  //  },
   
   {
     id: "SpinReelz",
@@ -114,30 +104,40 @@ export const brands: Brand[] = [
     votes: 12450,
      
    },
- 
    {
-    id: "BitGuruz",
-     name: "BitGuruz",
-    logo: "/brands/bitgruz.svg",
+    id: "MusBet",
+    name: "MusBet",
+    logo: "/brands/mustber.png",
     rating: 9.8,
-    bonus: "300% JUSQU'À + 300 TOURS GRATUITS",
-    url: "https://bestcpa.online/click?o=659&a=36&sub_id1=BitGuruz-SL2FR35&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
+    bonus: "300% JUSQU'À 1000€ + 150 TOURS GRATUITS",
+    url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR35&aff_click_id=",
+      isMobile: true,
+      votes: 12450,
+      
+     },
+  //  {
+  //   id: "BitGuruz",
+  //    name: "BitGuruz",
+  //   logo: "/brands/bitgruz.svg",
+  //   rating: 9.8,
+  //   bonus: "300% JUSQU'À + 300 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=659&a=36&sub_id1=BitGuruz-SL2FR35&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-   },
+  //  },
 
       
-   {
-          id: "Betportal",
-           name: "Betportal",
-               logo: "/brands/betportal.svg",
-               rating: 9.9,
-               bonus: "300% JUSQU'À 1000€ + 250 TOURS GRATUITS",
-               url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
-               isMobile: true,
-               votes: 12450,
-             },
+  //  {
+  //         id: "Betportal",
+  //          name: "Betportal",
+  //              logo: "/brands/betportal.svg",
+  //              rating: 9.9,
+  //              bonus: "300% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+  //              url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
+  //              isMobile: true,
+  //              votes: 12450,
+  //            },
   
   
 
@@ -209,29 +209,29 @@ export const brands: Brand[] = [
 
 
   
-   {
-  id: "29Black",
-  name: "29Black",
-  logo: "/brands/29black.svg",
-  rating: 9.8,
-  bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
-  url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
-  isMobile: true,
-  votes: 12450,
+//    {
+//   id: "29Black",
+//   name: "29Black",
+//   logo: "/brands/29black.svg",
+//   rating: 9.8,
+//   bonus: "200% JUSQU'À + 50 TOURS GRATUITS",
+//   url: "https://trk.jackpotj.com/click?o=5561&a=220866&sub_id1=29Black-SL2FR35&aff_click_id=",
+//   isMobile: true,
+//   votes: 12450,
   
- },
+//  },
       
-      {
-        id: "SpinTexas",
-        name: "SpinTexas",
-        logo: "/brands/spintexas.svg",
-        rating: 9.8,
-        bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
-        url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
+//       {
+//         id: "SpinTexas",
+//         name: "SpinTexas",
+//         logo: "/brands/spintexas.svg",
+//         rating: 9.8,
+//         bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+//         url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
+//         isMobile: true,
+//         votes: 12450,
         
-       }, 
+//        }, 
       //  {
       //   id: "EvoBet",
       //   name: "EvoBet",
@@ -244,16 +244,16 @@ export const brands: Brand[] = [
         
       //  }, 
        
-      {
-            id: "Kingia",
-            name: "Kingia",
-            logo: "/brands/kingia.webp",
-            rating: 9.9,
-            bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
-            url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
-            isMobile: true,
-            votes: 12450,
-          },
+      // {
+      //       id: "Kingia",
+      //       name: "Kingia",
+      //       logo: "/brands/kingia.webp",
+      //       rating: 9.9,
+      //       bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
+      //       url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+      //       isMobile: true,
+      //       votes: 12450,
+      //     },
 //   {
 //         id: "VegasNova",
 //          name: "VegasNova",
@@ -318,17 +318,17 @@ export const brands: Brand[] = [
  
    
      
-  {
-    id: "BetNJet",
-    name: "BetNJet",
-    logo: "/brands/betnjet.webp",
-    rating: 9.8,
-    bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
-    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR35&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BetNJet",
+  //   name: "BetNJet",
+  //   logo: "/brands/betnjet.webp",
+  //   rating: 9.8,
+  //   bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+  //   url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR35&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-   }, 
+  //  }, 
   
  
 
