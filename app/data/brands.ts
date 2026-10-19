@@ -59,7 +59,7 @@ export const brands: Brand[] = [
       {
   id: "MusBet",
   name: "MusBet",
-  logo: "/brands/musber.png",
+  logo: "/brands/mustber.png",
   rating: 9.8,
   bonus: "300% JUSQU'À 1000€ + 150 TOURS GRATUITS",
   url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR35&aff_click_id=",
@@ -94,7 +94,7 @@ export const brands: Brand[] = [
    {
     id: "TabooBet",
      name: "TabooBet",
-    logo: "/brands/taboobet.png",
+    logo: "/brands/taboo.svg",
     rating: 9.8,
     bonus: "300% JUSQU'À + 300 TOURS GRATUITS",
     url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR35&aff_click_id=",
@@ -118,7 +118,7 @@ export const brands: Brand[] = [
    {
     id: "BitGuruz",
      name: "BitGuruz",
-    logo: "/brands/bitguruz.png",
+    logo: "/brands/bitgruz.svg",
     rating: 9.8,
     bonus: "300% JUSQU'À + 300 TOURS GRATUITS",
     url: "https://bestcpa.online/click?o=659&a=36&sub_id1=BitGuruz-SL2FR35&aff_click_id=",
