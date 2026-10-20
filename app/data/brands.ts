@@ -56,7 +56,16 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-  
+   {
+      id: "MrBaron",
+      name: "MrBaron",
+      logo: "/brands/mrbaron.webp",
+      rating: 9.9,
+      bonus: "JUSQU'À 2000€ + 20 TOURS GRATUITS",
+      url: "https://track-otn.com/trk.php?t=3632&c=6880&subid=MrBaron-SL2FR35&clickid=",
+      isMobile: true,
+      votes: 12450,
+      },
   {
       id: "WinHero",
       name: "WinHero",
