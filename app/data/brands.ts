@@ -68,7 +68,17 @@ export const brands: Brand[] = [
       votes: 12450,
       },
   
-   
+      {
+        id: "LunaLoots",
+        name: "LunaLoots",
+        logo: "/brands/lunaloots.svg",
+        rating: 9.8,
+        bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
+        url: "https://go.infinitystarspartners.com/visit/?bta=39161&nci=9575&afp1=LunaLoots-SL2FR35&afp=",
+        isMobile: true,
+        votes: 12450,
+        
+       },
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -93,17 +103,17 @@ export const brands: Brand[] = [
     
   //  },
   
-  {
-    id: "SpinReelz",
-     name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
-     url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
-     isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinReelz",
+  //    name: "SpinReelz",
+  //   logo: "/brands/spinreelz.svg",
+  //   rating: 9.8,
+  //   bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+  //    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+  //    isMobile: true,
+  //   votes: 12450,
      
-   },
+  //  },
   //  {
   //   id: "MusBet",
   //   name: "MusBet",
@@ -145,17 +155,7 @@ export const brands: Brand[] = [
 
 
   
-  //  {
-  //   id: "LunaLoots",
-  //   name: "LunaLoots",
-  //   logo: "/brands/lunaloots.svg",
-  //   rating: 9.8,
-  //   bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
-  //   url: "https://bestcpa.online/click?o=693&a=36&sub_id1=LunaLoots-SL2FR35&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  //  },
+
   // {
   //   id: "MamaBet",
   //    name: "MamaBet",
