@@ -104,17 +104,17 @@ export const brands: Brand[] = [
     votes: 12450,
      
    },
-   {
-    id: "MusBet",
-    name: "MusBet",
-    logo: "/brands/mustber.png",
-    rating: 9.8,
-    bonus: "300% JUSQU'À 1000€ + 150 TOURS GRATUITS",
-    url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR35&aff_click_id=",
-      isMobile: true,
-      votes: 12450,
+  //  {
+  //   id: "MusBet",
+  //   name: "MusBet",
+  //   logo: "/brands/mustber.png",
+  //   rating: 9.8,
+  //   bonus: "300% JUSQU'À 1000€ + 150 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR35&aff_click_id=",
+  //     isMobile: true,
+  //     votes: 12450,
       
-     },
+  //    },
   //  {
   //   id: "BitGuruz",
   //    name: "BitGuruz",
