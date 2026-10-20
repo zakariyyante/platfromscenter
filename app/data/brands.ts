@@ -57,16 +57,7 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-      {
-       id: "GoldenPlay",
-       name: "GoldenPlay",
-       logo: "/brands/goldenplay.svg",
-       rating: 9.9,
-       bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
-       url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
-       isMobile: true,
-       votes: 12450,
-       },
+     
         {
       id: "Bananzia",
       name: "Bananzia",
@@ -77,6 +68,16 @@ export const brands: Brand[] = [
       isMobile: true,
       votes: 12450,
   }, 
+  {
+      id: "GoldenPlay",
+      name: "GoldenPlay",
+      logo: "/brands/goldenplay.svg",
+      rating: 9.9,
+      bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
+      url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
+      isMobile: true,
+      votes: 12450,
+      },
        {
         id: "SpinFormula",
         name: "SpinFormula",
@@ -88,6 +89,17 @@ export const brands: Brand[] = [
         votes: 12450,
         
        },
+
+      //  {
+      //     id: "TweedBet",
+      //     name: "TweedBet",
+      //     logo: "/brands/tweedbet.webp",
+      //     rating: 9.8,
+      //     bonus: "300% JUSQU'À 2250€",
+      //     url: "https://bestcpa.online/click?o=651&a=36&link_id=1145&sub_id1=TweedBet-SL2FR35&aff_click_id=",
+      //     isMobile: true,
+      //     votes: 12450,
+      //     },
   //  {
   //     id: "MrBaron",
   //     name: "MrBaron",
@@ -459,18 +471,27 @@ export const brands: Brand[] = [
   //   votes: 12450,
    
   // },  
-   
   {
-    id: "BelloCasino",
-    name: "BelloCasino",
-    logo: "/brands/bello.webp",
-    rating: 9.8,
-    bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
-    url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
-   isMobile: true,
-    votes: 12450,
+      id: "TweedBet",
+      name: "TweedBet",
+      logo: "/brands/tweedbet.webp",
+      rating: 9.8,
+      bonus: "300% JUSQU'À 2250€",
+      url: "https://bestcpa.online/click?o=651&a=75&link_id=1146&sub_id1=TweedBet-SL2FR35&aff_click_id=",
+      isMobile: true,
+      votes: 12450,
+      },
+  // {
+  //   id: "BelloCasino",
+  //   name: "BelloCasino",
+  //   logo: "/brands/bello.webp",
+  //   rating: 9.8,
+  //   bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
+  //  isMobile: true,
+  //   votes: 12450,
    
-  }, 
+  // }, 
   // {
   //      id: "GoloBet",
   //      name: "GoloBet",
