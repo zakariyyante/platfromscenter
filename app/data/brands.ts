@@ -72,7 +72,7 @@ export const brands: Brand[] = [
           logo: "/brands/Trixino.svg",
           rating: 9.9,
           bonus: "777% JUSQU'À 7777€",
-          url: "https://go.afftrackio.com/visit/?bta=35792&nci=5393&trackingcode=Trixino-SL2FR35&afp=",
+          url: "https://go.afftrackio.com/visit/?bta=35792&nci=5393&utm_campaign=Trixino-SL2FR35&afp=",
           isMobile: true,
           votes: 12450,
           },
