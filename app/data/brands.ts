@@ -87,17 +87,17 @@ export const brands: Brand[] = [
   //     votes: 12450,
   //     },
   
-      {
-        id: "LunaLoots",
-        name: "LunaLoots",
-        logo: "/brands/lunaloots.svg",
-        rating: 9.8,
-        bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
-        url: "https://go.infinitystarspartners.com/visit/?bta=39161&nci=9575&afp1=LunaLoots-SL2FR35&afp=",
-        isMobile: true,
-        votes: 12450,
+      // {
+      //   id: "LunaLoots",
+      //   name: "LunaLoots",
+      //   logo: "/brands/lunaloots.svg",
+      //   rating: 9.8,
+      //   bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
+      //   url: "https://go.infinitystarspartners.com/visit/?bta=39161&nci=9575&afp1=LunaLoots-SL2FR35&afp=",
+      //   isMobile: true,
+      //   votes: 12450,
         
-       },
+      //  },
   {
     id: "SpinFormula",
     name: "SpinFormula",
