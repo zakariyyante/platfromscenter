@@ -45,6 +45,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
    
   // },
+  
   {
     id: "MythosWin",
     name: "MythosWin",
@@ -66,6 +67,16 @@ export const brands: Brand[] = [
        isMobile: true,
        votes: 12450,
        },
+        {
+      id: "Bananzia",
+      name: "Bananzia",
+      logo: "/brands/bananzia.svg",
+      rating: 9.9,
+      bonus: "450% JUSQU'À 16500€ + 500 TOURS GRATUITS",
+      url: "https://trk.jackpotj.com/click?o=5593&a=220866&sub_id1=Bananzia-SL2FR35&aff_click_id=",
+      isMobile: true,
+      votes: 12450,
+  }, 
        {
         id: "SpinFormula",
         name: "SpinFormula",
