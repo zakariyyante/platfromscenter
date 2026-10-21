@@ -45,16 +45,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
    
   // },
-  {
-        id: "Bananzia",
-        name: "Bananzia",
-        logo: "/brands/bananzia.svg",
-        rating: 9.9,
-        bonus: "450% JUSQU'À 16500€ + 500 TOURS GRATUITS",
-        url: "https://trk.jackpotj.com/click?o=5593&a=220866&sub_id1=Bananzia-SL2FR35&aff_click_id=",
-        isMobile: true,
-        votes: 12450,
-    }, 
+ 
   {
     id: "MythosWin",
     name: "MythosWin",
@@ -66,7 +57,16 @@ export const brands: Brand[] = [
     votes: 12450,
     
    },
-     
+   {
+        id: "Bananzia",
+        name: "Bananzia",
+        logo: "/brands/bananzia.svg",
+        rating: 9.9,
+        bonus: "450% JUSQU'À 16500€ + 500 TOURS GRATUITS",
+        url: "https://trk.jackpotj.com/click?o=5593&a=220866&sub_id1=Bananzia-SL2FR35&aff_click_id=",
+        isMobile: true,
+        votes: 12450,
+    }, 
  
   // {
   //     id: "GoldenPlay",
@@ -120,26 +120,26 @@ export const brands: Brand[] = [
       //     isMobile: true,
       //     votes: 12450,
       //     },
-      {
-          id: "GreatSlots",
-          name: "GreatSlots",
-          logo: "/brands/greatslots.svg",
-          rating: 9.9,
-          bonus: "JUSQU'À 10000€ + 500 TOURS GRATUITS",
-          url: "https://jackl.group/click?o=2150&a=456&sub_id1=GreatSlots-SL2FR35&aff_click_id=",
-          isMobile: true,
-          votes: 12450,
-          },
-  // {
-  //     id: "WinHero",
-  //     name: "WinHero",
-  //     logo: "/brands/winhero1.png",
-  //     rating: 9.9,
-  //     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
-  //     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
-  //     isMobile: true,
-  //     votes: 12450,
-  //     },
+      // {
+      //     id: "GreatSlots",
+      //     name: "GreatSlots",
+      //     logo: "/brands/greatslots.svg",
+      //     rating: 9.9,
+      //     bonus: "JUSQU'À 10000€ + 500 TOURS GRATUITS",
+      //     url: "https://jackl.group/click?o=2150&a=456&sub_id1=GreatSlots-SL2FR35&aff_click_id=",
+      //     isMobile: true,
+      //     votes: 12450,
+      //     },
+  {
+      id: "WinHero",
+      name: "WinHero",
+      logo: "/brands/winhero1.png",
+      rating: 9.9,
+      bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+      url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+      isMobile: true,
+      votes: 12450,
+      },
    
       // {
       //   id: "LunaLoots",
