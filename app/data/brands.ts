@@ -140,7 +140,7 @@ export const brands: Brand[] = [
   //     isMobile: true,
   //     votes: 12450,
   //     },
-  
+   
       // {
       //   id: "LunaLoots",
       //   name: "LunaLoots",
